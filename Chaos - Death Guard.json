@@ -16655,40 +16655,6 @@
             ],
             "selectionEntries": [
               {
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "4504-cac1-81f8-9f47",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "342d-b2eb-ffc7-5b5e",
-                            "shared": true,
-                            "id": "5938-d328-69bf-6afe",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 2 {this} per 5 models",
-                    "field": "error"
-                  }
-                ],
                 "constraints": [
                   {
                     "field": "selections",
@@ -16737,43 +16703,18 @@
                 "collective": false,
                 "import": true,
                 "type": "model",
-                "sortIndex": 6
+                "sortIndex": 6,
+                "categoryLinks": [
+                  {
+                    "name": "Plague Marine heavy/bubotic weapon",
+                    "hidden": false,
+                    "id": "1c0f-2a55-8e41-aa01",
+                    "targetId": "6f2a-51bd-9c07-3e44",
+                    "primary": false
+                  }
+                ]
               },
               {
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "df48-757f-eee7-f64f",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "6716-dc44-359-f787",
-                            "shared": true,
-                            "id": "735e-14d8-5d0f-3829",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 2 {this} per 5 models",
-                    "field": "error"
-                  }
-                ],
                 "constraints": [
                   {
                     "field": "selections",
@@ -16887,43 +16828,18 @@
                 "collective": false,
                 "import": true,
                 "type": "model",
-                "sortIndex": 5
+                "sortIndex": 5,
+                "categoryLinks": [
+                  {
+                    "name": "Plague Marine heavy/bubotic weapon",
+                    "hidden": false,
+                    "id": "2d1a-3b66-9f52-bb02",
+                    "targetId": "6f2a-51bd-9c07-3e44",
+                    "primary": false
+                  }
+                ]
               },
               {
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "6d12-0a19-38c2-a8e4",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "a814-bef0-d765-743",
-                            "shared": true,
-                            "id": "2e91-8937-d809-e21b",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "field": "error",
-                    "value": "Max 1 {this} per 5 models"
-                  }
-                ],
                 "constraints": [
                   {
                     "field": "selections",
@@ -16962,7 +16878,16 @@
                 "collective": false,
                 "import": true,
                 "type": "model",
-                "sortIndex": 4
+                "sortIndex": 4,
+                "categoryLinks": [
+                  {
+                    "name": "Plague Marine special weapon",
+                    "hidden": false,
+                    "id": "3e2b-4c77-af63-cc03",
+                    "targetId": "a3d8-72ce-14fb-9082",
+                    "primary": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -17017,40 +16942,6 @@
                 "sortIndex": 1
               },
               {
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "fd69-e2f4-be82-f442",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "19a8-2c9c-41bd-9a36",
-                            "shared": true,
-                            "id": "c2a6-393f-a56c-072e",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 1 {this} per 5 models",
-                    "field": "error"
-                  }
-                ],
                 "constraints": [
                   {
                     "field": "selections",
@@ -17088,7 +16979,16 @@
                 "collective": false,
                 "import": true,
                 "type": "model",
-                "sortIndex": 3
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Plague Marine special weapon",
+                    "hidden": false,
+                    "id": "4f3c-5d88-bf74-dd04",
+                    "targetId": "a3d8-72ce-14fb-9082",
+                    "primary": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -17172,40 +17072,6 @@
                     "percentValue": false,
                     "includeChildSelections": false,
                     "includeChildForces": false
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "ebcb-0273-09c6-c1c3",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "8467-b3a2-2597-de0d",
-                            "childId": "cb44-b5c1-d177-026b",
-                            "shared": true,
-                            "id": "ff2b-66be-6dee-1781",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 1 {this} per 5 models",
-                    "field": "error"
                   }
                 ],
                 "selectionEntries": [
@@ -17330,7 +17196,16 @@
                     "name": "Plague Marine w/ meltagun",
                     "hidden": false,
                     "id": "05c5-63a6-c389-819e",
-                    "collective": false
+                    "collective": false,
+                    "categoryLinks": [
+                      {
+                        "name": "Plague Marine special weapon",
+                        "hidden": false,
+                        "id": "5a4d-6e99-cf85-ee05",
+                        "targetId": "a3d8-72ce-14fb-9082",
+                        "primary": false
+                      }
+                    ]
                   },
                   {
                     "constraints": [
@@ -17389,7 +17264,16 @@
                     "name": "Plague Marine w/ plasma gun",
                     "hidden": false,
                     "id": "0ea3-f888-d4e4-d830",
-                    "collective": false
+                    "collective": false,
+                    "categoryLinks": [
+                      {
+                        "name": "Plague Marine special weapon",
+                        "hidden": false,
+                        "id": "6b5e-7faa-df96-ff06",
+                        "targetId": "a3d8-72ce-14fb-9082",
+                        "primary": false
+                      }
+                    ]
                   },
                   {
                     "constraints": [
@@ -17526,7 +17410,16 @@
                     "name": "Plague Marine w/ plague belcher",
                     "hidden": false,
                     "id": "f789-aed3-99e6-d1b1",
-                    "collective": false
+                    "collective": false,
+                    "categoryLinks": [
+                      {
+                        "name": "Plague Marine special weapon",
+                        "hidden": false,
+                        "id": "7c6f-8abb-efa7-0017",
+                        "targetId": "a3d8-72ce-14fb-9082",
+                        "primary": false
+                      }
+                    ]
                   }
                 ],
                 "name": "Special weapons",
@@ -17541,7 +17434,107 @@
             "collective": false,
             "import": true,
             "defaultSelectionEntryId": "96c2-dfc7-57e9-e28a",
-            "sortIndex": 4
+            "sortIndex": 4,
+            "modifiers": [
+              {
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 10,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "model",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "6f2a-51bd-9c07-3e44",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 4,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "6f2a-51bd-9c07-3e44",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "type": "add",
+                "field": "error",
+                "value": "Max 2 heavy plague weapons/bubotic weapons per 5 models"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 10,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "model",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "greaterThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "a3d8-72ce-14fb-9082",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "8467-b3a2-2597-de0d",
+                            "childId": "a3d8-72ce-14fb-9082",
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "type": "add",
+                "field": "error",
+                "value": "Max 1 special weapon per 5 models"
+              }
+            ]
           },
           {
             "name": "Enhancements",
@@ -66784,6 +66777,16 @@
             "includeChildSelections": true
           }
         ]
+      },
+      {
+        "name": "Plague Marine heavy/bubotic weapon",
+        "id": "6f2a-51bd-9c07-3e44",
+        "hidden": true
+      },
+      {
+        "name": "Plague Marine special weapon",
+        "id": "a3d8-72ce-14fb-9082",
+        "hidden": true
       }
     ],
     "sharedProfiles": [
