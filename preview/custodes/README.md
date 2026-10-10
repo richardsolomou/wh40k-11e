@@ -23,8 +23,8 @@ Pin all three files from the same committed revision as edition overlays:
 | Source | Repository path | Destination path |
 | --- | --- | --- |
 | definitions | `Imperium - Adeptus Custodes.json` | `Imperium - Adeptus Custodes.json` |
-| points | `preview/custodes/points/data/adeptus-custodes.yaml` | `data/adeptus-custodes.yaml` |
-| datacards | `preview/custodes/datacards/11th/gdc/adeptuscustodes.json` | `11th/gdc/adeptuscustodes.json` |
+| points | `data/adeptus-custodes.yaml` | `data/adeptus-custodes.yaml` |
+| datacards | `11th/gdc/adeptuscustodes.json` | `11th/gdc/adeptuscustodes.json` |
 
 The catalogue has 27 datasheets, 13 detachments and 29 enhancements/upgrades. All 27 are selectable with the community sheet’s prices. Every supported model-count option has a complete unit price; repeated-copy pricing is encoded separately, without carrying released MFM prices into this preview.
 

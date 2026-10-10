@@ -9,8 +9,8 @@ class CustodesPreview(unittest.TestCase):
     def setUpClass(cls):
         build.build()
         cls.catalogue = json.loads((build.ROOT / 'Imperium - Adeptus Custodes.json').read_text())['catalogue']
-        cls.points = json.loads((build.HERE / 'points/data/adeptus-custodes.yaml').read_text())
-        cls.cards = json.loads((build.HERE / 'datacards/11th/gdc/adeptuscustodes.json').read_text())
+        cls.points = json.loads((build.ROOT / 'data/adeptus-custodes.yaml').read_text())
+        cls.cards = json.loads((build.ROOT / '11th/gdc/adeptuscustodes.json').read_text())
 
     def unit(self, name):
         return next(e for e in self.catalogue['sharedSelectionEntries'] if e['name'] == name)
