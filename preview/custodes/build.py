@@ -399,8 +399,8 @@ def build():
             description={'en': text}, keywords=[*e['req'], *e.get('any', [])],
             equipableByNonCharacter=e['k'] == 'upg'))
     save(ROOT / 'Imperium - Adeptus Custodes.json', {'catalogue': catalogue})
-    save(HERE / 'points/data/adeptus-custodes.yaml', points)
-    save(HERE / 'datacards/11th/gdc/adeptuscustodes.json', data)
+    save(ROOT / 'data/adeptus-custodes.yaml', points)
+    save(ROOT / '11th/gdc/adeptuscustodes.json', data)
 
 
 if __name__ == '__main__':
