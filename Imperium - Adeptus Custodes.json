@@ -16796,6 +16796,12 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
+          },
+          {
+            "id": "preview-anathema-7099-71b-56e8-7191",
+            "name": "Anathema Psykana",
+            "type": "rule",
+            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [
@@ -17453,6 +17459,12 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
+          },
+          {
+            "id": "preview-anathema-3ec3-a4df-fdbf-5507",
+            "name": "Anathema Psykana",
+            "type": "rule",
+            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -18302,6 +18314,12 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
+          },
+          {
+            "id": "preview-anathema-dd2d-568a-9c56-1b6e",
+            "name": "Anathema Psykana",
+            "type": "rule",
+            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -18867,6 +18885,12 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
+          },
+          {
+            "id": "preview-anathema-503b-f7be-eeeb-9e31",
+            "name": "Anathema Psykana",
+            "type": "rule",
+            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -19746,6 +19770,12 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
+          },
+          {
+            "id": "preview-anathema-d7cb-7d30-715b-50d2",
+            "name": "Anathema Psykana",
+            "type": "rule",
+            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [
@@ -20156,6 +20186,11 @@
       }
     ],
     "sharedRules": [
+      {
+        "id": "preview-anathema-psykana",
+        "name": "Anathema Psykana",
+        "description": "ANATHEMA PSYKANA units carry this ability: they can join your army although they lack the ADEPTUS CUSTODES faction keyword.\nUnless a rule says otherwise, while you muster your army:\n- ANATHEMA PSYKANA cannot be the army faction you select.\n- An ANATHEMA PSYKANA model cannot be selected as your WARLORD."
+      },
       {
         "id": "pc-7d681bcbfca63bf63e39617a",
         "name": "Aegis of the Emperor",
