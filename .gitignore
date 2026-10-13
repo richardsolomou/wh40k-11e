@@ -19,3 +19,8 @@
 
 # Don't ignore .yml for CI build definitions
 !*.yml
+
+!/preview/
+!/preview/custodes/
+!/preview/custodes/**
+**/__pycache__/
