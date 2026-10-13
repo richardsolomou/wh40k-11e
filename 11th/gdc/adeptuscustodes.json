@@ -66,6 +66,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -139,6 +142,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -201,6 +207,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -263,6 +272,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "75 x 42mm"
       }
     },
     {
@@ -316,6 +328,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -438,6 +453,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -502,6 +520,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -566,6 +587,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -611,6 +635,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "50mm"
       }
     },
     {
@@ -705,6 +732,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm"
       }
     },
     {
@@ -760,6 +790,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm"
       }
     },
     {
@@ -813,6 +846,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "75 x 42mm"
       }
     },
     {
@@ -871,6 +907,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm flying base"
       }
     },
     {
@@ -993,6 +1032,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -1051,6 +1093,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "100mm"
       }
     },
     {
@@ -1095,6 +1140,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "105 x 70mm"
       }
     },
     {
@@ -1155,6 +1203,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "Use model"
       }
     },
     {
@@ -1199,6 +1250,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "170 x 109mm"
       }
     },
     {
@@ -1275,6 +1329,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1303,6 +1362,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1343,6 +1405,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1363,6 +1430,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1403,6 +1473,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1423,6 +1498,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1463,6 +1541,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1483,6 +1566,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1515,6 +1601,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1543,6 +1634,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "Use model"
       }
     }
   ],
@@ -2962,6 +3056,20 @@
     "army": [
       {
         "name": {
+          "en": "Anathema Psykana"
+        },
+        "rules": [
+          {
+            "type": "text",
+            "order": 1,
+            "text": {
+              "en": "ANATHEMA PSYKANA units carry this ability: they can join your army although they lack the ADEPTUS CUSTODES faction keyword.\nUnless a rule says otherwise, while you muster your army:\n- ANATHEMA PSYKANA cannot be the army faction you select.\n- An ANATHEMA PSYKANA model cannot be selected as your WARLORD."
+            }
+          }
+        ]
+      },
+      {
+        "name": {
           "en": "Aegis of the Emperor"
         },
         "rules": [
@@ -3351,5 +3459,5 @@
       }
     ]
   },
-  "attribution": "Unofficial Custodes codex preview transcribed by orpheax/custobuilder"
+  "attribution": "Unofficial Custodes codex preview transcribed by orpheax/custobuilder; provisional base sizes and Anathema Psykana rule from Warmind"
 }
