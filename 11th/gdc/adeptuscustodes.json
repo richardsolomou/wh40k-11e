@@ -2325,8 +2325,10 @@
       "effect": {
         "en": "A friendly ADEPTUS CUSTODES unit that is not readied becomes readied. Same unit only once per battle round."
       },
-      "phase": [],
-      "turn": null
+      "phase": [
+        "any"
+      ],
+      "turn": "either"
     },
     {
       "id": "pc-dd31dade3d922272aac259c2",
@@ -2399,7 +2401,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-f5e39701841381249e2d36d9",
@@ -2702,8 +2704,10 @@
       "effect": {
         "en": "A friendly ADEPTUS CUSTODES unit that is not readied becomes readied. Once per unit per battle round."
       },
-      "phase": [],
-      "turn": null
+      "phase": [
+        "any"
+      ],
+      "turn": "either"
     },
     {
       "id": "pc-b9c1941d3436415bdb0742d9",
@@ -2722,7 +2726,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-5061bc8bff8dab1e35a26b20",
@@ -2758,7 +2762,7 @@
       "phase": [
         "any"
       ],
-      "turn": null
+      "turn": "either"
     },
     {
       "id": "pc-586faa4f368f4bc4e8105b07",
@@ -2849,7 +2853,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-c3e0a68a22b64f2c6af6bf56",
