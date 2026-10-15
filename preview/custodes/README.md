@@ -1,6 +1,15 @@
-# Custodes codex preview
+# Custodes codex
 
-This branch replaces only the Adeptus Custodes catalogue and supplies matching points and datacards as overlays. It is an unofficial, incomplete preview, not released rules. The main and Space-Marine-Codex branches remain upstream tracking branches.
+This branch replaces only the Adeptus Custodes catalogue and its datacards, for use as overlays until BSData publishes its own codex catalogue. Points come from the official Munitorum Field Manual 1.6, published on 14 October 2026; this branch supplies none. The main and Space-Marine-Codex branches remain upstream tracking branches.
+
+## MFM 1.6 release
+
+The generated preview was reconciled with MFM 1.6 by hand after the build:
+
+- Every unit and enhancement price the preview shares with MFM 1.6 already matched it. The community copy caps were removed; MFM requisition rows price repeat copies, and each datasheet carries the battle-size unit limit BSData encodes for every faction: 3 (2 in Incursion), doubled for Battleline and Dedicated Transports, 1 for Epic Heroes. Prosecutor Squads take the Battleline limit under Null Maiden Vigil.
+- The provisional Leader and Support lists match MFM 1.6 for every codex datasheet.
+- Aleya, Valerian, Venerable Contemptor Dreadnought, Venerable Land Raider, Ares Gunship and Orion Assault Dropship, which MFM 1.6 still prices, keep their index datasheets, identities and Game Datacards cards. Aleya and Valerian lead the codex units MFM 1.6 lists for them.
+- MFM 1.6 also prices three-model Legends units: Custodian Guard Sodality with Adrasite Spears, with Pyrithite Spears, and Sagittarum Custodians Sodality. No source here provides their datasheets, and the index units have different compositions, so they are not offered.
 
 ## Sources
 
@@ -18,26 +27,23 @@ The publisher’s [live Field Manual](https://mfm.warhammer-community.com/en/ade
 
 Run `python3 -B preview/custodes/build.py`, then `python3 -B -m unittest discover -s preview/custodes -p 'test_*.py'`. The generator reads its baseline directly from commit `3988a8bdd210f9d31ea5b6782d0016688ccb6815` and preserves existing datasheet and detachment IDs where their identities remain unambiguous. Renamed Guard and Sisters units retain their earlier identities; the two Aquilon and two Venatari datasheets have distinct identities.
 
-Pin all three files from the same committed revision as edition overlays:
+Pin the definitions and datacards from the same committed revision as overlays:
 
 | Source | Repository path | Destination path |
 | --- | --- | --- |
 | definitions | `Imperium - Adeptus Custodes.json` | `Imperium - Adeptus Custodes.json` |
-| points | `data/adeptus-custodes.yaml` | `data/adeptus-custodes.yaml` |
 | datacards | `11th/gdc/adeptuscustodes.json` | `11th/gdc/adeptuscustodes.json` |
 
-The catalogue has 27 datasheets, 13 detachments and 29 enhancements/upgrades. All 27 are selectable with the community sheet’s prices. Every supported model-count option has a complete unit price; repeated-copy pricing is encoded separately, without carrying released MFM prices into this preview.
+The generator output has 27 datasheets, 13 detachments and 29 enhancements/upgrades, and the release adds the six index datasheets above. Its points file is no longer published, and re-running it drops the hand reconciliation above.
 
 ## Known gaps
 
-- Sisters support the priced four-, five-, nine- and ten-model compositions. Six to eight models are not offered because their prices are absent from the sheet.
-- Construction is bounded to the sheet’s explicit copy columns: one Trajann, four Rhinos and three copies of other datasheets. These are preview pricing bounds, not claimed game rules. The fourth-and-later Rhino price is retained in the authored source, but later construction bounds still need the complete army rules.
-- No verified Leader/Support attachment table is available. Old attachment permissions are not inherited.
+- Sisters support the four-, five-, nine- and ten-model compositions MFM 1.6 prices.
 - Detachment and enhancement text includes community summaries. The generator corrects the scanned name Leonine Ferocity, Eagle’s Eye wording, and Moritoi stratagem timing.
 - Superhuman Focus and Gilded Champion have per-unit/model limits the battle tracker cannot represent. In Auramite Clad, Vigil Unending and Honoured Interred have phase-dependent turn restrictions it cannot represent. Their text is retained, but their executable battle cards remain unavailable.
-- Ka’tah readiness, activated abilities and conditional movement/OC effects do not have automatic battle-state transitions. Combat wording and the Orb’s Blinding Light keyword still need complete engine coverage; do not describe this preview as fully automated or ready for release.
+- Ka’tah readiness, activated abilities and conditional movement/OC effects do not have automatic battle-state transitions. Combat wording and the Orb’s Blinding Light keyword still need complete engine coverage.
 
-Verify construction, saved selections, repeat prices, defaults and references in the consuming application before publishing. Keep the preview non-default until the full released sources are verified.
+Verify construction, saved selections, repeat prices, defaults and references in the consuming application before publishing.
 
 ## Automatic benefit audit
 

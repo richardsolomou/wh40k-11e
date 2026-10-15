@@ -3466,18 +3466,6 @@
                 "$text": "If this model is in your army, it must be your WARLORD"
               }
             ]
-          },
-          {
-            "id": "preview-attachment-7d7c-c212-47a3-38e4",
-            "name": "Leader",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens\n- Allarus Custodians\n- Aquilon Terminators with Solarite Power Gauntlets\n- Aquilon Terminators with Solarite Power Talons"
-              }
-            ]
           }
         ],
         "infoLinks": [
@@ -3901,18 +3889,6 @@
                 "name": "Description",
                 "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
                 "$text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
-              }
-            ]
-          },
-          {
-            "id": "preview-attachment-b61c-b815-65c0-b1cc",
-            "name": "Leader",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens"
               }
             ]
           }
@@ -4901,18 +4877,6 @@
                 "$text": "In your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
               }
             ]
-          },
-          {
-            "id": "preview-attachment-6319-eeba-b717-bd86",
-            "name": "Leader",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Allarus Custodians\n- Aquilon Terminators with Solarite Power Gauntlets\n- Aquilon Terminators with Solarite Power Talons"
-              }
-            ]
           }
         ],
         "infoLinks": [
@@ -5654,18 +5618,6 @@
                 "$text": "At the end of the Fight phase, if this unit was eligible to fight this phase:\n- If this unit is unengaged, this unit can make a normal move.\n- Or: If this unit is engaged, this unit can make a fall-back move."
               }
             ]
-          },
-          {
-            "id": "preview-attachment-58fa-4a25-a5af-1144",
-            "name": "Leader",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Vertus Praetors\n- Gyrfalcon Jetbike Sodality"
-              }
-            ]
           }
         ],
         "infoLinks": [
@@ -5717,12 +5669,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": "preview-bike-captain-leader",
-            "name": "Leader",
-            "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "selectionEntries": [
@@ -6303,18 +6249,6 @@
                 "name": "Description",
                 "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
                 "$text": "At the start of the first battle round, select one enemy unit to be this model's mark.\n- This model's attacks that target this model's mark have +1 to wound rolls\n- Each time this model's mark is destroyed, select one enemy unit to be this model's mark."
-              }
-            ]
-          },
-          {
-            "id": "preview-attachment-48b7-e713-d5b1-f11c",
-            "name": "Leader",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens"
               }
             ]
           }
@@ -16758,18 +16692,6 @@
                 "$text": "When an enemy unit (excluding MONSTER/VEHICLE units) engaged with this unit makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
               }
             ]
-          },
-          {
-            "id": "preview-attachment-7099-71b-56e8-7191",
-            "name": "Support",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model can be attached to the following units:\n- Prosecutor Squad\n- Vigilator Squad\n- Witchseeker Squad"
-              }
-            ]
           }
         ],
         "infoLinks": [
@@ -16796,12 +16718,6 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
-          },
-          {
-            "id": "preview-anathema-7099-71b-56e8-7191",
-            "name": "Anathema Psykana",
-            "type": "rule",
-            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [
@@ -17355,16 +17271,6 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 55
           }
-        ],
-        "constraints": [
-          {
-            "id": "preview-knight-centura-support-required",
-            "type": "min",
-            "value": 1,
-            "field": "associations",
-            "scope": "self",
-            "message": "{this} must be attached to a Bodyguard unit."
-          }
         ]
       },
       {
@@ -17459,12 +17365,6 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
-          },
-          {
-            "id": "preview-anathema-3ec3-a4df-fdbf-5507",
-            "name": "Anathema Psykana",
-            "type": "rule",
-            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -18314,12 +18214,6 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
-          },
-          {
-            "id": "preview-anathema-dd2d-568a-9c56-1b6e",
-            "name": "Anathema Psykana",
-            "type": "rule",
-            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -18885,12 +18779,6 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
-          },
-          {
-            "id": "preview-anathema-503b-f7be-eeeb-9e31",
-            "name": "Anathema Psykana",
-            "type": "rule",
-            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [],
@@ -19770,12 +19658,6 @@
             "name": "Psychic Null (Aura)",
             "type": "profile",
             "targetId": "pc-f032b38b2e59ea344e9e4724"
-          },
-          {
-            "id": "preview-anathema-d7cb-7d30-715b-50d2",
-            "name": "Anathema Psykana",
-            "type": "rule",
-            "targetId": "preview-anathema-psykana"
           }
         ],
         "selectionEntries": [
@@ -20186,11 +20068,6 @@
       }
     ],
     "sharedRules": [
-      {
-        "id": "preview-anathema-psykana",
-        "name": "Anathema Psykana",
-        "description": "ANATHEMA PSYKANA units carry this ability: they can join your army although they lack the ADEPTUS CUSTODES faction keyword.\nUnless a rule says otherwise, while you muster your army:\n- ANATHEMA PSYKANA cannot be the army faction you select.\n- An ANATHEMA PSYKANA model cannot be selected as your WARLORD."
-      },
       {
         "id": "pc-7d681bcbfca63bf63e39617a",
         "name": "Aegis of the Emperor",
