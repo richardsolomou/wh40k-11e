@@ -8,7 +8,7 @@ The generated preview was reconciled with MFM 1.6 by hand after the build:
 
 - Every unit and enhancement price the preview shares with MFM 1.6 already matched it. The community copy caps were removed; MFM requisition rows price repeat copies, and each datasheet carries the battle-size unit limit BSData encodes for every faction: 3 (2 in Incursion), doubled for Battleline and Dedicated Transports, 1 for Epic Heroes. Prosecutor Squads take the Battleline limit under Null Maiden Vigil.
 - The provisional Leader and Support lists match MFM 1.6 for every codex datasheet.
-- Aleya, Valerian, Venerable Contemptor Dreadnought, Venerable Land Raider, Ares Gunship and Orion Assault Dropship, which MFM 1.6 still prices, keep their index datasheets, identities and Game Datacards cards. Aleya and Valerian lead the codex units MFM 1.6 lists for them.
+- Aleya, Valerian, Venerable Contemptor Dreadnought, Venerable Land Raider, Ares Gunship and Orion Assault Dropship, which MFM 1.6 still prices, keep their index datasheets, identities and Game Datacards cards; the four MFM 1.6 lists as Legends are named as BSData names Legends datasheets. Aleya and Valerian lead the codex units MFM 1.6 lists for them.
 - MFM 1.6 also prices three-model Legends units: Custodian Guard Sodality with Adrasite Spears, with Pyrithite Spears, and Sagittarum Custodians Sodality. No source here provides their datasheets, and the index units have different compositions, so they are not offered.
 
 ## Sources

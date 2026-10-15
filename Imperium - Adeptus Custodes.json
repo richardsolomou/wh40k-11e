@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -20355,7 +20355,7 @@
         ]
       },
       {
-        "name": "Aleya",
+        "name": "Aleya [Legends]",
         "id": "9e42-7207-9c30-6122",
         "collective": false,
         "hidden": false,
@@ -20834,7 +20834,7 @@
         ]
       },
       {
-        "name": "Valerian",
+        "name": "Valerian [Legends]",
         "id": "8103-2e01-5d6a-b761",
         "collective": false,
         "hidden": false,
@@ -22851,7 +22851,7 @@
         ]
       },
       {
-        "name": "Venerable Contemptor Dreadnought",
+        "name": "Venerable Contemptor Dreadnought [Legends]",
         "id": "188b-e48b-29f-1456",
         "collective": false,
         "hidden": false,
@@ -23724,7 +23724,7 @@
         ]
       },
       {
-        "name": "Venerable Land Raider",
+        "name": "Venerable Land Raider [Legends]",
         "id": "76be-3bcb-cf4-bcbd",
         "collective": false,
         "hidden": false,
@@ -24911,7 +24911,7 @@
         "targetId": "d7cb-7d30-715b-50d2"
       },
       {
-        "name": "Aleya",
+        "name": "Aleya [Legends]",
         "id": "718c-e2b1-4ba5-28a7",
         "collective": false,
         "hidden": false,
@@ -24920,7 +24920,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Valerian",
+        "name": "Valerian [Legends]",
         "id": "1fd5-8cf0-bef3-3970",
         "collective": false,
         "hidden": false,
@@ -24956,7 +24956,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Venerable Contemptor Dreadnought",
+        "name": "Venerable Contemptor Dreadnought [Legends]",
         "id": "2744-e5a2-79e2-2b4f",
         "collective": false,
         "hidden": false,
@@ -24965,7 +24965,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Venerable Land Raider",
+        "name": "Venerable Land Raider [Legends]",
         "id": "9efe-c8e5-7da-3ae0",
         "collective": false,
         "hidden": false,
