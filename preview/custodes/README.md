@@ -34,7 +34,7 @@ Pin the definitions and datacards from the same committed revision as overlays:
 | definitions | `Imperium - Adeptus Custodes.json` | `Imperium - Adeptus Custodes.json` |
 | datacards | `11th/gdc/adeptuscustodes.json` | `11th/gdc/adeptuscustodes.json` |
 
-The generator output has 27 datasheets, 13 detachments and 29 enhancements/upgrades, and the release adds the six index datasheets above. Its points file is no longer published, and re-running it drops the hand reconciliation above.
+The generator output has 27 datasheets, 13 detachments and 29 enhancements/upgrades, and the release adds the six index datasheets above. Its points file is no longer published. The build and its tests rewrite the published files and drop the reconciliation above.
 
 ## Known gaps
 

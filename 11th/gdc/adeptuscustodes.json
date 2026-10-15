@@ -66,6 +66,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -139,6 +142,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -201,6 +207,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -263,6 +272,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "75 x 42mm"
       }
     },
     {
@@ -316,6 +328,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -438,6 +453,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -502,6 +520,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -566,6 +587,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -611,6 +635,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "50mm"
       }
     },
     {
@@ -705,6 +732,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm"
       }
     },
     {
@@ -760,6 +790,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm"
       }
     },
     {
@@ -813,6 +846,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "75 x 42mm"
       }
     },
     {
@@ -871,6 +907,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "60mm flying base"
       }
     },
     {
@@ -993,6 +1032,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "40mm"
       }
     },
     {
@@ -1051,6 +1093,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "100mm"
       }
     },
     {
@@ -1095,6 +1140,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "105 x 70mm"
       }
     },
     {
@@ -1155,6 +1203,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "Use model"
       }
     },
     {
@@ -1199,6 +1250,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "170 x 109mm"
       }
     },
     {
@@ -1275,6 +1329,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1303,6 +1362,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1343,6 +1405,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1363,6 +1430,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1403,6 +1473,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1423,6 +1498,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1463,6 +1541,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1483,6 +1566,9 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "32mm"
       }
     },
     {
@@ -1515,6 +1601,11 @@
             "name": {
               "en": "Daughters of the Abyss"
             }
+          },
+          {
+            "name": {
+              "en": "Anathema Psykana"
+            }
           }
         ],
         "other": [
@@ -1543,6 +1634,1436 @@
             }
           }
         ]
+      },
+      "baseSize": {
+        "en": "Use model"
+      }
+    },
+    {
+      "id": "9e42-7207-9c30-6122",
+      "source": "40k-11e",
+      "name": {
+        "en": "Aleya"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Infantry",
+          "de": "Infanterie",
+          "es": "Infantería",
+          "fr": "Infanterie",
+          "it": "Fanteria",
+          "ja": "インファントリー",
+          "ko": "보병",
+          "zh": "步兵"
+        },
+        {
+          "en": "Character",
+          "de": "Charaktermodell",
+          "es": "Personaje",
+          "fr": "Personnage",
+          "it": "Personaggio",
+          "ja": "キャラクター",
+          "ko": "캐릭터",
+          "zh": "角色"
+        },
+        {
+          "en": "Epic Hero",
+          "de": "Epischer Held",
+          "es": "Héroe Épico",
+          "fr": "Héros Épique",
+          "it": "Eroe Epico",
+          "ja": "伝説的英雄",
+          "ko": "서사적 영웅",
+          "zh": "史诗英雄"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Anathema Psykana"
+        },
+        {
+          "en": "Aleya"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Aleya"
+          },
+          "m": "6\"",
+          "t": "3",
+          "sv": "3+",
+          "w": "4",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Somnus"
+              },
+              "range": "Melee",
+              "attacks": "4",
+              "skill": "2+",
+              "strength": "6",
+              "ap": "-3",
+              "damage": "3",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-psyker 5+"
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "core": [
+          {
+            "name": {
+              "en": "Feel No Pain 5+"
+            }
+          },
+          {
+            "name": {
+              "en": "Leader"
+            }
+          },
+          {
+            "name": {
+              "en": "Scouts 6\""
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Tactical Perception"
+            },
+            "description": {
+              "en": "While this model is leading a unit, models in that unit have the Fights First ability."
+            }
+          },
+          {
+            "name": {
+              "en": "Tenacious Spirit"
+            },
+            "description": {
+              "en": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+            }
+          },
+          {
+            "name": {
+              "en": "Daughter of the Abyss"
+            },
+            "description": {
+              "en": "This model has the Feel No Pain 3+ ability against Psychic Attack and mortal wounds."
+            }
+          }
+        ],
+        "invul": {
+          "value": "5+"
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Aleya – EPIC HERO**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with**: Somnus."
+      },
+      "wargear": [
+        {
+          "en": "None"
+        }
+      ],
+      "fluff": {
+        "en": "Aleya is a veteran of her order and is a ferocious and dedicated hunter of witches and sorcerers. Over many years she has developed incredible tactical perception, as well as a deep knowledge of her quarry. She employs these skills to seek out rogue psykers, cutting them down with sweeps of her blade, Somnus."
+      },
+      "baseSize": {
+        "en": "32mm"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "55",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Somnus"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "leader": {
+        "en": "This model can be attached to the following units: ■ **PROSECUTOR SQUAD** ■ **VIGILATOR SQUAD** ■ **WITCHSEEKER SQUAD**"
+      },
+      "attachesTo": [
+        {
+          "type": "leader",
+          "target": "Prosecutor Squad",
+          "targetType": "datasheet"
+        },
+        {
+          "type": "leader",
+          "target": "Vigilator Squad",
+          "targetType": "datasheet"
+        },
+        {
+          "type": "leader",
+          "target": "Witchseeker Squad",
+          "targetType": "datasheet"
+        }
+      ]
+    },
+    {
+      "id": "8103-2e01-5d6a-b761",
+      "source": "40k-11e",
+      "name": {
+        "en": "Valerian"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Infantry",
+          "de": "Infanterie",
+          "es": "Infantería",
+          "fr": "Infanterie",
+          "it": "Fanteria",
+          "ja": "インファントリー",
+          "ko": "보병",
+          "zh": "步兵"
+        },
+        {
+          "en": "Character",
+          "de": "Charaktermodell",
+          "es": "Personaje",
+          "fr": "Personnage",
+          "it": "Personaggio",
+          "ja": "キャラクター",
+          "ko": "캐릭터",
+          "zh": "角色"
+        },
+        {
+          "en": "Epic Hero",
+          "de": "Epischer Held",
+          "es": "Héroe Épico",
+          "fr": "Héros Épique",
+          "it": "Eroe Epico",
+          "ja": "伝説的英雄",
+          "ko": "서사적 영웅",
+          "zh": "史诗英雄"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Shield-Captain"
+        },
+        {
+          "en": "Valerian"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Valerian"
+          },
+          "m": "6\"",
+          "t": "6",
+          "sv": "2+",
+          "w": "6",
+          "ld": "6+",
+          "oc": "2"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Gnosis – Ranged"
+              },
+              "range": "24\"",
+              "attacks": "3",
+              "skill": "2+",
+              "strength": "5",
+              "ap": "-1",
+              "damage": "2",
+              "keywords": [
+                "Assault"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Gnosis – Melee"
+              },
+              "range": "Melee",
+              "attacks": "7",
+              "skill": "2+",
+              "strength": "8",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "faction": [
+          {
+            "name": {
+              "en": "Martial Ka’tah"
+            }
+          }
+        ],
+        "core": [
+          {
+            "name": {
+              "en": "Deep Strike"
+            }
+          },
+          {
+            "name": {
+              "en": "Feel No Pain 6+"
+            }
+          },
+          {
+            "name": {
+              "en": "Leader"
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Golden Laurels"
+            },
+            "description": {
+              "en": "While this model is leading a unit, each time a melee attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+            }
+          },
+          {
+            "name": {
+              "en": "Hero of Lion’s Gate"
+            },
+            "description": {
+              "en": "Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+            }
+          }
+        ],
+        "invul": {
+          "value": "4+"
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Valerian – EPIC HERO**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with**: Gnosis."
+      },
+      "wargear": [
+        {
+          "en": "None"
+        }
+      ],
+      "fluff": {
+        "en": "A headstrong warrior, Valerian is relatively new to the Custodes, but is already marked for greatness. His urge to bring death to the foes of the Emperor beyond Terra is much valued in these dark times, and countless enemies have fallen to his guardian spear, Gnosis."
+      },
+      "baseSize": {
+        "en": "40mm"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "130",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Gnosis"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "leader": {
+        "en": "This model can be attached to the following units: ■ **CUSTODIAN GUARD SODALITY** ■ **CUSTODIAN WARDENS** ■ **SENTINEL GUARD SODALITY**"
+      },
+      "attachesTo": [
+        {
+          "type": "leader",
+          "target": "Custodian Guard Sodality",
+          "targetType": "datasheet"
+        },
+        {
+          "type": "leader",
+          "target": "Custodian Wardens",
+          "targetType": "datasheet"
+        },
+        {
+          "type": "leader",
+          "target": "Sentinel Guard Sodality",
+          "targetType": "datasheet"
+        }
+      ]
+    },
+    {
+      "id": "9335-74d9-ad68-3ff7",
+      "source": "40k-11e",
+      "name": {
+        "en": "Ares Gunship"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Vehicle",
+          "de": "Fahrzeug",
+          "es": "Vehículo",
+          "fr": "Véhicule",
+          "it": "Veicolo",
+          "ja": "ビークル",
+          "ko": "기체",
+          "zh": "载具"
+        },
+        {
+          "en": "Aircraft",
+          "de": "Flugzeug",
+          "es": "Aeronave",
+          "fr": "Aérodyne",
+          "it": "Aeromobile",
+          "ja": "航空機",
+          "ko": "항공기",
+          "zh": "飞行器"
+        },
+        {
+          "en": "Fly",
+          "de": "Fliegen",
+          "es": "Volar",
+          "fr": "Vol",
+          "it": "Volare",
+          "ja": "飛行",
+          "ko": "비행",
+          "zh": "飞行"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Ares Gunship"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Ares Gunship"
+          },
+          "m": "-",
+          "t": "12",
+          "sv": "2+",
+          "w": "22",
+          "ld": "6+",
+          "oc": "-",
+          "showDamagedMarker": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Arachnus magna-blaze cannon"
+              },
+              "range": "48\"",
+              "attacks": "3",
+              "skill": "2+",
+              "strength": "18",
+              "ap": "-4",
+              "damage": "D6+6",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Arachnus heavy blaze cannon"
+              },
+              "range": "36\"",
+              "attacks": "4",
+              "skill": "2+",
+              "strength": "12",
+              "ap": "-3",
+              "damage": "D6+1",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Armoured hull"
+              },
+              "range": "Melee",
+              "attacks": "9",
+              "skill": "4+",
+              "strength": "9",
+              "ap": "0",
+              "damage": "1",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "faction": [
+          {
+            "name": {
+              "en": "Martial Ka’tah"
+            }
+          }
+        ],
+        "core": [
+          {
+            "name": {
+              "en": "Deadly Demise D6"
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Infernus Firebombs"
+            },
+            "description": {
+              "en": "At the end of your Movement phase, select one **visible** enemy unit (excluding **AIRCRAFT**/**Lone Operative** units) within 24\" of this unit:\n• That enemy unit cannot have the **benefit of cover** until the end of your next Shooting phase.\n• Roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 **mortal wound**."
+            }
+          }
+        ],
+        "damaged": {
+          "range": {
+            "en": "1-7 WOUNDS REMAINING"
+          },
+          "description": {
+            "en": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "invul": {
+          "value": "5+"
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Ares Gunship**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with:** 2 arachnus heavy blaze cannons; arachnus magna-blaze cannon; armoured hull."
+      },
+      "wargear": [
+        {
+          "en": "None"
+        }
+      ],
+      "fluff": {
+        "en": "The Ares Gunship first earned its reputation on Ancient Terra, and has quashed the Emperor’s enemies on hundreds of worlds since. Most terrifying of the Ares’ offensive capabilities is the arachnus magna-blaze cannon, whose extreme energies can pierce the densest armour, leaving a trail of wrecks and corpses wherever the Ares deploys."
+      },
+      "baseSize": {
+        "en": "160mm"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "580",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Arachnus heavy blaze cannon"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Arachnus magna-blaze cannon"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Armoured hull"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "additionalCost": {
+        "cost": "30",
+        "afterSelections": 1
+      },
+      "imperialArmour": true
+    },
+    {
+      "id": "9c1a-7efd-ed36-440e",
+      "source": "40k-11e",
+      "name": {
+        "en": "Orion Assault Dropship"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Vehicle",
+          "de": "Fahrzeug",
+          "es": "Vehículo",
+          "fr": "Véhicule",
+          "it": "Veicolo",
+          "ja": "ビークル",
+          "ko": "기체",
+          "zh": "载具"
+        },
+        {
+          "en": "Transport",
+          "de": "Transporter",
+          "es": "Transporte",
+          "fr": "Transport",
+          "it": "Trasporto",
+          "ja": "兵員輸送",
+          "ko": "수송",
+          "zh": "运输工具"
+        },
+        {
+          "en": "Fly",
+          "de": "Fliegen",
+          "es": "Volar",
+          "fr": "Vol",
+          "it": "Volare",
+          "ja": "飛行",
+          "ko": "비행",
+          "zh": "飞行"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Orion Assault Dropship"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Orion Assault Dropship"
+          },
+          "m": "14\"",
+          "t": "12",
+          "sv": "2+",
+          "w": "22",
+          "ld": "6+",
+          "oc": "0",
+          "showDamagedMarker": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Arachnus heavy blaze cannon"
+              },
+              "range": "36\"",
+              "attacks": "4",
+              "skill": "2+",
+              "strength": "12",
+              "ap": "-3",
+              "damage": "D6+1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Spiculus heavy bolt launcher"
+              },
+              "range": "36\"",
+              "attacks": "D6+6",
+              "skill": "2+",
+              "strength": "7",
+              "ap": "-1",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Twin lastrum bolt cannon"
+              },
+              "range": "36\"",
+              "attacks": "3",
+              "skill": "2+",
+              "strength": "6",
+              "ap": "-1",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Armoured hull"
+              },
+              "range": "Melee",
+              "attacks": "9",
+              "skill": "4+",
+              "strength": "9",
+              "ap": "0",
+              "damage": "1",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "faction": [
+          {
+            "name": {
+              "en": "Martial Ka’tah"
+            }
+          }
+        ],
+        "core": [
+          {
+            "name": {
+              "en": "Deadly Demise D6"
+            }
+          },
+          {
+            "name": {
+              "en": "Hover"
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Assault Dropship"
+            },
+            "description": {
+              "en": "If a unit disembarks from this **TRANSPORT** before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+            }
+          }
+        ],
+        "damaged": {
+          "range": {
+            "en": "1-7 WOUNDS REMAINING"
+          },
+          "description": {
+            "en": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "invul": {
+          "value": "5+"
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Orion Assault Dropship**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with:** 2 arachnus heavy blaze cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt launchers; armoured hull."
+      },
+      "wargear": [
+        {
+          "en": "None"
+        }
+      ],
+      "fluff": {
+        "en": "The heavily armoured Orion is a superlative assault craft designed to weather attacks while it deploys its formidable cargo of Custodian Guard. With bolt and energy weapons blazing, the Orion swiftly clears a landing zone and unleashes its passengers, before soaring skyward to rain death upon any other threats that enter its sights."
+      },
+      "baseSize": {
+        "en": "160mm"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "690",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Arachnus heavy blaze cannon"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Twin lastrum bolt cannon"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Spiculus heavy bolt launcher"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Armoured hull"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "additionalCost": {
+        "cost": "50",
+        "afterSelections": 1
+      },
+      "transport": {
+        "en": "This model has a transport capacity of 12 **ADEPTUS CUSTODES INFANTRY** models. This model can also transport 1 **VENERABLE CONTEMPTOR DREADNOUGHT**, 1 **CONTEMPTOR-ACHILLUS DREADNOUGHT** or 1 **CONTEMPTOR GALATUS-DREADNOUGHT**; while doing so, its transport capacity is reduced to 6 **ADEPTUS CUSTODES INFANTRY** models."
+      },
+      "imperialArmour": true
+    },
+    {
+      "id": "188b-e48b-29f-1456",
+      "source": "40k-11e",
+      "name": {
+        "en": "Venerable Contemptor Dreadnought"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Vehicle",
+          "de": "Fahrzeug",
+          "es": "Vehículo",
+          "fr": "Véhicule",
+          "it": "Veicolo",
+          "ja": "ビークル",
+          "ko": "기체",
+          "zh": "载具"
+        },
+        {
+          "en": "Walker",
+          "de": "Läufer",
+          "es": "Bípode",
+          "fr": "Marcheur",
+          "it": "Camminatore",
+          "ja": "ウォーカー",
+          "ko": "보행체",
+          "zh": "机甲"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Venerable Contemptor Dreadnought"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Venerable Contemptor Dreadnought"
+          },
+          "m": "6\"",
+          "t": "9",
+          "sv": "2+",
+          "w": "10",
+          "ld": "6+",
+          "oc": "3"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Multi-melta"
+              },
+              "range": "18\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "9",
+              "ap": "-4",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Combi-bolter"
+              },
+              "range": "24\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "5",
+              "ap": "-1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Kheres-pattern assault cannon"
+              },
+              "range": "24\"",
+              "attacks": "6",
+              "skill": "2+",
+              "strength": "7",
+              "ap": "-1",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Contemptor combat weapon"
+              },
+              "range": "Melee",
+              "attacks": "5",
+              "skill": "2+",
+              "strength": "12",
+              "ap": "-2",
+              "damage": "3",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "faction": [
+          {
+            "name": {
+              "en": "Martial Ka’tah"
+            }
+          }
+        ],
+        "core": [
+          {
+            "name": {
+              "en": "Deadly Demise 1"
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Unyielding Ancient"
+            },
+            "description": {
+              "en": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+            }
+          }
+        ],
+        "invul": {
+          "value": "5+"
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Venerable Contemptor Dreadnought**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with**: combi-bolter; multi-melta; Contemptor combat weapon."
+      },
+      "wargear": [
+        {
+          "en": "This model’s multi-melta can be replaced with 1 Kheres-pattern assault cannon."
+        }
+      ],
+      "fluff": {
+        "en": "These towering combat walkers are piloted by centuries-old fallen heroes kept alive by irreplaceable technologies. Equipped with weapons that can melt armour and tear apart infantry, Venerable Contemptor Dreadnoughts inflict terrible damage, all while protected by atomantic shields and auto-repair protocols."
+      },
+      "baseSize": {
+        "en": "60mm"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "220",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Combi-bolter"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Multi-melta"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Contemptor combat weapon"
+              },
+              "cost": "0"
+            }
+          ]
+        },
+        {
+          "instruction": {
+            "en": "This model’s multi-melta can be replaced with 1 Kheres-pattern assault cannon."
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Kheres-pattern assault cannon"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "additionalCost": {
+        "cost": "15",
+        "afterSelections": 2
+      }
+    },
+    {
+      "id": "76be-3bcb-cf4-bcbd",
+      "source": "40k-11e",
+      "name": {
+        "en": "Venerable Land Raider"
+      },
+      "factions": [
+        "Adeptus Custodes"
+      ],
+      "faction_id": "6cc4ee5e-3bc6-4142-8147-2e1a9fb6e82c",
+      "keywords": [
+        {
+          "en": "Vehicle",
+          "de": "Fahrzeug",
+          "es": "Vehículo",
+          "fr": "Véhicule",
+          "it": "Veicolo",
+          "ja": "ビークル",
+          "ko": "기체",
+          "zh": "载具"
+        },
+        {
+          "en": "Imperium",
+          "de": "Imperium",
+          "es": "Imperium",
+          "fr": "Imperium",
+          "it": "Imperium",
+          "ja": "帝国",
+          "ko": "제국",
+          "zh": "帝国"
+        },
+        {
+          "en": "Transport",
+          "de": "Transporter",
+          "es": "Transporte",
+          "fr": "Transport",
+          "it": "Trasporto",
+          "ja": "兵員輸送",
+          "ko": "수송",
+          "zh": "运输工具"
+        },
+        {
+          "en": "Smoke",
+          "de": "Rauch",
+          "es": "Humo",
+          "fr": "Fumée",
+          "it": "Fumo",
+          "ja": "煙幕",
+          "ko": "연막",
+          "zh": "烟幕"
+        },
+        {
+          "en": "Venerable Land Raider"
+        },
+        {
+          "en": "Frame",
+          "de": "Umriss",
+          "es": "Figura",
+          "fr": "Châssis",
+          "it": "Sagoma",
+          "ja": "フレーム",
+          "ko": "동체",
+          "zh": "外壳"
+        }
+      ],
+      "stats": [
+        {
+          "name": {
+            "en": "Venerable Land Raider"
+          },
+          "m": "10\"",
+          "t": "12",
+          "sv": "2+",
+          "w": "16",
+          "ld": "6+",
+          "oc": "5",
+          "showDamagedMarker": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Hunter-killer missile"
+              },
+              "range": "48\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "14",
+              "ap": "-3",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Storm Bolter"
+              },
+              "range": "24\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "5",
+              "ap": "-1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Twin heavy bolter"
+              },
+              "range": "36\"",
+              "attacks": "3",
+              "skill": "2+",
+              "strength": "5",
+              "ap": "-1",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ]
+            }
+          ]
+        },
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Godhammer lascannon"
+              },
+              "range": "48\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "12",
+              "ap": "-3",
+              "damage": "D6+1",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "profiles": [
+            {
+              "name": {
+                "en": "Armoured tracks"
+              },
+              "range": "Melee",
+              "attacks": "6",
+              "skill": "4+",
+              "strength": "8",
+              "ap": "0",
+              "damage": "1",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "faction": [
+          {
+            "name": {
+              "en": "Martial Ka’tah"
+            }
+          }
+        ],
+        "core": [
+          {
+            "name": {
+              "en": "Deadly Demise D6"
+            }
+          }
+        ],
+        "other": [
+          {
+            "name": {
+              "en": "Assault Ramp"
+            },
+            "description": {
+              "en": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+            }
+          }
+        ],
+        "damaged": {
+          "range": {
+            "en": "1-5 WOUNDS REMAINING"
+          },
+          "description": {
+            "en": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        }
+      },
+      "composition": [
+        {
+          "en": "**1 Venerable Land Raider**"
+        }
+      ],
+      "loadout": {
+        "en": "**This model is equipped with**: 2 godhammer lascannons; twin heavy bolter; armoured tracks."
+      },
+      "wargear": [
+        {
+          "en": "This model can be equipped with 1 storm bolter."
+        },
+        {
+          "en": "This model can be equipped with 1 hunter-killer missile."
+        }
+      ],
+      "fluff": {
+        "en": "Land Raiders are heavily armed, mobile fortresses. Possessed of hyper-durable adamantine armour and a fearsome array of weapons, they and their cargo of Custodian warriors can turn the tide of war in a single salvo, and their machine spirits are so potent they can fight on even if the crew are slain."
+      },
+      "baseSize": {
+        "en": "Hull"
+      },
+      "points": [
+        {
+          "models": "1",
+          "cost": "230",
+          "keyword": null,
+          "faction": null,
+          "detachment": null
+        }
+      ],
+      "wargearOptions": [
+        {
+          "instruction": {
+            "en": "Default Wargear"
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Godhammer lascannon"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Twin heavy bolter"
+              },
+              "cost": "0"
+            },
+            {
+              "name": {
+                "en": "Armoured tracks"
+              },
+              "cost": "0"
+            }
+          ]
+        },
+        {
+          "instruction": {
+            "en": "This model can be equipped with 1 hunter-killer missile."
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Hunter-killer missile"
+              },
+              "cost": "0"
+            }
+          ]
+        },
+        {
+          "instruction": {
+            "en": "This model can be equipped with 1 storm bolter."
+          },
+          "options": [
+            {
+              "name": {
+                "en": "Storm Bolter"
+              },
+              "cost": "0"
+            }
+          ]
+        }
+      ],
+      "additionalCost": {
+        "cost": "20",
+        "afterSelections": 1
+      },
+      "transport": {
+        "en": "This model has a transport capacity of 6 **ADEPTUS CUSTODES INFANTRY** models."
       }
     }
   ],
@@ -2231,8 +3752,10 @@
       "effect": {
         "en": "A friendly ADEPTUS CUSTODES unit that is not readied becomes readied. Same unit only once per battle round."
       },
-      "phase": [],
-      "turn": null
+      "phase": [
+        "any"
+      ],
+      "turn": "either"
     },
     {
       "id": "pc-dd31dade3d922272aac259c2",
@@ -2305,7 +3828,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-f5e39701841381249e2d36d9",
@@ -2608,8 +4131,10 @@
       "effect": {
         "en": "A friendly ADEPTUS CUSTODES unit that is not readied becomes readied. Once per unit per battle round."
       },
-      "phase": [],
-      "turn": null
+      "phase": [
+        "any"
+      ],
+      "turn": "either"
     },
     {
       "id": "pc-b9c1941d3436415bdb0742d9",
@@ -2628,7 +4153,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-5061bc8bff8dab1e35a26b20",
@@ -2664,7 +4189,7 @@
       "phase": [
         "any"
       ],
-      "turn": null
+      "turn": "either"
     },
     {
       "id": "pc-586faa4f368f4bc4e8105b07",
@@ -2755,7 +4280,7 @@
         "shooting",
         "fight"
       ],
-      "turn": null
+      "turn": "opponents"
     },
     {
       "id": "pc-c3e0a68a22b64f2c6af6bf56",
@@ -2960,6 +4485,20 @@
   ],
   "rules": {
     "army": [
+      {
+        "name": {
+          "en": "Anathema Psykana"
+        },
+        "rules": [
+          {
+            "type": "text",
+            "order": 1,
+            "text": {
+              "en": "ANATHEMA PSYKANA units carry this ability: they can join your army although they lack the ADEPTUS CUSTODES faction keyword.\nUnless a rule says otherwise, while you muster your army:\n- ANATHEMA PSYKANA cannot be the army faction you select.\n- An ANATHEMA PSYKANA model cannot be selected as your WARLORD."
+            }
+          }
+        ]
+      },
       {
         "name": {
           "en": "Aegis of the Emperor"
@@ -3351,5 +4890,5 @@
       }
     ]
   },
-  "attribution": "Unofficial Custodes codex preview transcribed by orpheax/custobuilder"
+  "attribution": "Custodes codex transcribed by orpheax/custobuilder and checked against scanned codex pages; base sizes and Anathema Psykana rule from Warmind; Legends and Forge World cards from Game Datacards"
 }
