@@ -2839,6 +2839,3508 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Ancient on Bike [Legends]",
+        "id": "1135-ac85-67e9-25aa",
+        "hidden": true,
+        "import": true,
+        "targetId": "e4c7-b10c-6896-3f0",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Apothecary on Bike [Legends]",
+        "id": "3e83-39d9-ee6a-7157",
+        "hidden": true,
+        "import": true,
+        "targetId": "449f-a74d-e85a-2684",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Assault Squad [Legends]",
+        "id": "db5-450b-5c4b-5743",
+        "hidden": true,
+        "import": true,
+        "targetId": "ca4e-47d5-a704-8e5a",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [{"childId": "f89b-84e0-6e3b-f1e2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+              }
+            ]
+          },
+          {"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}
+        ]
+      },
+      {
+        "name": "Assault Squad with Jump Packs [Legends]",
+        "id": "4f50-ac01-7a79-3362",
+        "hidden": true,
+        "import": true,
+        "targetId": "bfe7-b726-9158-d5ad",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [{"childId": "f89b-84e0-6e3b-f1e2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+              }
+            ]
+          },
+          {"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}
+        ]
+      },
+      {
+        "name": "Astartes Servitors [Legends]",
+        "id": "6cd-6624-587-13dd",
+        "hidden": true,
+        "import": true,
+        "targetId": "74c4-82d0-4c98-2fa8",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Attack Bike Squad [Legends]",
+        "id": "a9f8-8f6a-73e0-d4ca",
+        "hidden": true,
+        "import": true,
+        "targetId": "7bef-c609-3897-8bd6",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [{"childId": "4459-12f0-bc-142b", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+              }
+            ]
+          },
+          {"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}
+        ]
+      },
+      {
+        "name": "Bike Squad [Legends]",
+        "id": "b6b0-9449-1f70-6cfe",
+        "hidden": true,
+        "import": true,
+        "targetId": "e6c4-3c73-1f0e-816d",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Caestus Assault Ram [Legends]",
+        "id": "2b90-3730-69d-d0c0",
+        "hidden": true,
+        "import": true,
+        "targetId": "df9b-111-d64a-e298",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Captain on Bike [Legends]",
+        "id": "3497-256c-f286-a424",
+        "hidden": true,
+        "import": true,
+        "targetId": "faf9-bf62-8eb5-a3cb",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Carab Culln the Risen [Legends]",
+        "id": "64c2-9759-7dd3-89dc",
+        "hidden": true,
+        "import": true,
+        "targetId": "103c-8f97-ed61-1922",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Chaplain Venerable Dreadnought [Legends]",
+        "id": "d8c8-3031-2faa-22a6",
+        "hidden": true,
+        "import": true,
+        "targetId": "b51-a07d-6440-e1ad",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Command Squad [Legends]",
+        "id": "5303-3b14-f6dd-81f9",
+        "hidden": true,
+        "import": true,
+        "targetId": "78ae-14b4-56d0-cc9d",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Company Champion on Bike [Legends]",
+        "id": "2567-b3bf-f1b-26d5",
+        "hidden": true,
+        "import": true,
+        "targetId": "97c3-20c8-4c99-39e5",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Company Veterans on Bikes [Legends]",
+        "id": "3413-f351-cfb0-d33b",
+        "hidden": true,
+        "import": true,
+        "targetId": "a40-ff3f-c1ea-fea7",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Deathstorm Drop Pod [Legends]",
+        "id": "266a-70d9-cc0d-b7c",
+        "hidden": true,
+        "import": true,
+        "targetId": "68be-7090-1fbc-9021",
+        "type": "selectionEntry",
+        "constraints": [
+          {"id": "3116-dcd6-a294-29ed", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "e176-ec56-dc8e-53ba", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "fd5d-e07d-9c7c-4904", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "3f79-ee71-ed07-9d47",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "3116-dcd6-a294-29ed",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "e176-ec56-dc8e-53ba",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "fd5d-e07d-9c7c-4904",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Deimos Predator [Legends]",
+        "id": "569e-478f-3778-555b",
+        "hidden": true,
+        "import": true,
+        "targetId": "534d-4e94-5a8a-75ae",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Deredeo Dreadnought [Legends]",
+        "id": "4edd-c031-f40-60cb",
+        "hidden": true,
+        "import": true,
+        "targetId": "d38d-c3a2-f753-efea",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "e3ba-8a1d-4801-3ad3", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "605-9287-7920-e193", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "2485-9ec0-7b4d-1321", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "64ee-7ff9-c3c8-3fe9", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "2b77-6652-8281-d774", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "75b4-632b-0781-4b09",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "2485-9ec0-7b4d-1321",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "64ee-7ff9-c3c8-3fe9",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "2b77-6652-8281-d774",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Dreadnought Drop Pod [Legends]",
+        "id": "dcce-7138-db27-ba2",
+        "hidden": true,
+        "import": true,
+        "targetId": "7fd0-d95d-d076-3472",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "71ef-f2f6-c512-1233", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "63de-5065-dc8-a022", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "4264-c87a-9e8c-7df1", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "99b2-0676-b534-ba20", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "589a-03d4-05f0-9c46", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "b7e8-5270-53ca-5e62",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "4264-c87a-9e8c-7df1",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "99b2-0676-b534-ba20",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "589a-03d4-05f0-9c46",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Fellblade [Legends]",
+        "id": "420f-595f-eecb-8ab3",
+        "hidden": true,
+        "import": true,
+        "targetId": "585d-722b-4304-2f63",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "d1c5-e832-3403-fcc3", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "2034-d14d-5759-2abb", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "487b-36ab-ef31-857a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "5339-c237-d48e-68e9", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "4a67-36f1-b702-6063", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "4d19-9213-b219-3f40",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "487b-36ab-ef31-857a",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "5339-c237-d48e-68e9",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "4a67-36f1-b702-6063",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Ferren Areios [Legends]",
+        "id": "6981-8904-488b-309b",
+        "hidden": true,
+        "import": true,
+        "targetId": "dc83-f2ef-802a-5662",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Fire Raptor Gunship [Legends]",
+        "id": "506c-80e8-14a1-616f",
+        "hidden": true,
+        "import": true,
+        "targetId": "1fc7-7880-e4d4-acbf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "b8be-482a-449b-d1f6", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "a781-4f58-a3a6-7276", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "1382-2093-6727-b0d4", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "1c3b-bca6-1c0f-85b2", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "d8b3-7fcf-601c-17c5", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "69bc-4d36-7330-9517",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "1382-2093-6727-b0d4",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "1c3b-bca6-1c0f-85b2",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "d8b3-7fcf-601c-17c5",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Hunter [Legends]",
+        "id": "d318-96c5-d134-fa02",
+        "hidden": true,
+        "import": true,
+        "targetId": "3ad-729-3235-4777",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Imperial Space Marine [Legends]",
+        "id": "f926-58fc-de94-89c2",
+        "hidden": true,
+        "import": true,
+        "targetId": "faa-3b84-1365-9c22",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Ironclad Dreadnought [Legends]",
+        "id": "de65-a660-340f-96e8",
+        "hidden": true,
+        "import": true,
+        "targetId": "64c7-8b87-1b4f-7850",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Javelin Attack Speeder [Legends]",
+        "id": "68b7-8b20-f52a-e8a0",
+        "hidden": true,
+        "import": true,
+        "targetId": "1f26-fce8-bb2d-2c44",
+        "type": "selectionEntry",
+        "constraints": [
+          {"id": "cf2e-a264-7203-2685", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "0795-ca70-4418-f03d", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "5c7e-244a-21a7-0dd8", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "743d-5350-1cc4-9154",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "cf2e-a264-7203-2685",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "0795-ca70-4418-f03d",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "5c7e-244a-21a7-0dd8",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Raider Achilles [Legends]",
+        "id": "b695-9234-c39e-83bd",
+        "hidden": true,
+        "import": true,
+        "targetId": "3006-ffe-2b0c-6b1b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "1f28-cf7e-1fcc-a3e1", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "8d10-9034-d289-3421", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "2ab8-8786-68e3-9203", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "811b-e6d1-927f-1111", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "c3b2-5346-f908-cca2", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "fd62-5262-70e8-6952",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "2ab8-8786-68e3-9203",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "811b-e6d1-927f-1111",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "c3b2-5346-f908-cca2",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Raider Helios [Legends]",
+        "id": "c8f-979d-913b-2bad",
+        "hidden": true,
+        "import": true,
+        "targetId": "f62a-bea1-a015-3668",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Raider Prometheus [Legends]",
+        "id": "2266-31ab-d8cc-b280",
+        "hidden": true,
+        "import": true,
+        "targetId": "bbc6-900e-c5f2-d634",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Raider Proteus [Legends]",
+        "id": "33d5-e15f-2823-41ae",
+        "hidden": true,
+        "import": true,
+        "targetId": "34c8-1025-33f7-baaf",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "4042-eea7-ad2b-87c3", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "6595-1ef9-1759-a3d9", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "e3fd-7e8c-fbcd-0783", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "5b84-efc5-cdb6-a6e4", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "006c-2905-5c62-cb5e", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "f9fb-d653-6b69-ef18",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "e3fd-7e8c-fbcd-0783",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "5b84-efc5-cdb6-a6e4",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "006c-2905-5c62-cb5e",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Speeder Storm [Legends]",
+        "id": "e415-ca97-489b-5923",
+        "hidden": true,
+        "import": true,
+        "targetId": "fce3-2e6f-cede-69cc",
+        "type": "selectionEntry",
+        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 70}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "f89b-84e0-6e3b-f1e2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+          },
+          {"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}
+        ]
+      },
+      {
+        "name": "Land Speeder Tempest [Legends]",
+        "id": "9683-3b69-ae2f-d527",
+        "hidden": true,
+        "import": true,
+        "targetId": "d4ad-4638-c7a7-1af6",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Speeder Tornado [Legends]",
+        "id": "fb73-22fb-c51c-16ca",
+        "hidden": true,
+        "import": true,
+        "targetId": "760c-24f2-ac1e-162b",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Land Speeder Typhoon [Legends]",
+        "id": "c236-ccd1-b830-169c",
+        "hidden": true,
+        "import": true,
+        "targetId": "90fe-d51c-1541-5d60",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Leviathan Dreadnought [Legends]",
+        "id": "c88c-5a05-c07f-bfc1",
+        "hidden": true,
+        "import": true,
+        "targetId": "14d4-8062-f090-6719",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "10a9-a6da-552c-79c5", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "c67c-3cba-b07e-b842", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "2434-853c-d5b5-dbb0", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "fc80-1993-8ffa-3a64", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "47d0-902f-6bc0-ef16", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "1976-4407-93c1-91ce",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "2434-853c-d5b5-dbb0",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "fc80-1993-8ffa-3a64",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "47d0-902f-6bc0-ef16",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Librarian on Bike [Legends]",
+        "id": "faf9-d221-4c79-88cf",
+        "hidden": true,
+        "import": true,
+        "targetId": "1039-4a94-c791-9e1d",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Librarian with Jump Pack [Legends]",
+        "id": "8e04-4d58-493e-e8ba",
+        "hidden": true,
+        "import": true,
+        "targetId": "45af-a02e-e8e2-49f",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Mortis Dreadnought [Legends]",
+        "id": "b1ba-c9c4-557b-4a47",
+        "hidden": true,
+        "import": true,
+        "targetId": "525c-7e0-b0de-8a6f",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Primaris Company Champion [Legends]",
+        "id": "93f6-358f-c8d-7d4d",
+        "hidden": true,
+        "import": true,
+        "targetId": "36cf-5961-78b9-79ce",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Relic Contemptor Dreadnought [Legends]",
+        "id": "6a6e-7e3d-2721-35bc",
+        "hidden": true,
+        "import": true,
+        "targetId": "783a-1c02-b377-b169",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "870b-6c30-3cb6-6237", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "c296-e94a-4fb1-1096", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "c0f1-c53a-0cf6-c29d", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "b79e-6209-fd48-837f", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "7fd8-c222-fa40-3a1f", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "f9b7-2f32-5b64-7f01",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "c0f1-c53a-0cf6-c29d",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "b79e-6209-fd48-837f",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "7fd8-c222-fa40-3a1f",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Relic Terminator Squad [Legends]",
+        "id": "9f08-f0fd-cfdd-57b1",
+        "hidden": true,
+        "import": true,
+        "targetId": "9d3f-134e-1f5b-531a",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Scout Sniper Squad [Legends]",
+        "id": "b90d-26e-4e1e-73ab",
+        "hidden": true,
+        "import": true,
+        "targetId": "9a96-8de3-f4aa-7497",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "f89b-84e0-6e3b-f1e2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+          },
+          {"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}
+        ]
+      },
+      {
+        "name": "Sicaran Arcus [Legends]",
+        "id": "f2b0-99f4-4213-fdd",
+        "hidden": true,
+        "import": true,
+        "targetId": "ca2a-69ca-dd3c-47",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "64a1-820a-7df6-c08", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "2c83-20a3-a2d1-b688", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "f4a9-b922-58fb-3d53", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "5990-4c00-8578-d43c", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "8526-d697-7469-18f1", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "6280-ad93-932d-fc12",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "f4a9-b922-58fb-3d53",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "5990-4c00-8578-d43c",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "8526-d697-7469-18f1",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Sicaran Omega [Legends]",
+        "id": "8888-1a56-fafc-d4db",
+        "hidden": true,
+        "import": true,
+        "targetId": "8b64-6aba-150d-27e4",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "2c4e-e31a-c6bf-63cb", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "6719-a632-d98e-3a30", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "16b1-60dc-8e7e-229e", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "090c-b317-1d6b-25df", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "91d8-d216-e228-f257", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "7d1c-53d7-3f7f-e5ad",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "16b1-60dc-8e7e-229e",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "090c-b317-1d6b-25df",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "91d8-d216-e228-f257",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Sicaran Punisher [Legends]",
+        "id": "28e2-fc6e-3f4d-ecd2",
+        "hidden": true,
+        "import": true,
+        "targetId": "68aa-28bf-bd73-3355",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "7adf-a174-a157-de9f", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "204f-4407-55ae-11c8", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "e905-c17d-aa55-44ac", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "40e7-a455-d24e-7df2", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "0924-1559-7b47-eae7", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "5679-9ac4-73a3-7cc9",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "e905-c17d-aa55-44ac",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "40e7-a455-d24e-7df2",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "0924-1559-7b47-eae7",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Sicaran Venator [Legends]",
+        "id": "92a-6ded-87e3-96ca",
+        "hidden": true,
+        "import": true,
+        "targetId": "e63e-2aa6-f840-b54e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "e334-78b4-3983-51ec", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "b6a8-f4ac-b871-da13", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "2057-edcf-4259-50d9", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "5a6d-28b0-3833-47a0", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "5024-3b9a-12cf-0ef0", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "0923-dc5c-006f-441d",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "2057-edcf-4259-50d9",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "5a6d-28b0-3833-47a0",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "5024-3b9a-12cf-0ef0",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Sokar-pattern Stormbird [Legends]",
+        "id": "b9d-75b3-db8d-8cee",
+        "hidden": true,
+        "import": true,
+        "targetId": "a80f-8343-85f3-716a",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "6049-212b-6eca-8e66", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "a9bd-e9ea-f36a-ef1", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "b1a0-77b2-8ed0-5f28", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "c87b-9e24-10a1-377f", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "ed7c-c684-92a9-57fc", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "e9a6-65c5-145b-2f91",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "b1a0-77b2-8ed0-5f28",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "c87b-9e24-10a1-377f",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "ed7c-c684-92a9-57fc",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Spartan [Legends]",
+        "id": "7e3b-af-1914-e1e5",
+        "hidden": true,
+        "import": true,
+        "targetId": "7b3a-9a63-6200-ec7",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "8544-9d7c-dbcf-80f6", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "b5ef-5b0b-d05a-9bd9", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "99ee-03f8-d493-d23a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "47ff-85d4-a971-c038", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "aa56-dea1-34a1-6c08", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "d4d6-dbdf-3766-385f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "99ee-03f8-d493-d23a",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "47ff-85d4-a971-c038",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "aa56-dea1-34a1-6c08",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Stalker [Legends]",
+        "id": "66d7-24ac-9496-23be",
+        "hidden": true,
+        "import": true,
+        "targetId": "adcd-2954-5a7f-d7ed",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Storm Eagle Gunship [Legends]",
+        "id": "1588-c304-7a3e-e4df",
+        "hidden": true,
+        "import": true,
+        "targetId": "3b7d-b14e-603-e1ad",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "3824-5cf3-43ec-837f", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "a5c4-687-eeb0-a751", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "f7cc-c347-11e5-e065", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "d784-144e-5f0f-ab90", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "ff6d-447e-fe30-12e3", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "f347-4ed9-2eea-d330",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "f7cc-c347-11e5-e065",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "d784-144e-5f0f-ab90",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "ff6d-447e-fe30-12e3",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Techmarine on Bike [Legends]",
+        "id": "f044-7d53-b48f-f6b5",
+        "hidden": true,
+        "import": true,
+        "targetId": "33e2-3ddf-7063-df9e",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Terminus Ultra [Legends]",
+        "id": "38ae-1eb3-c1f3-eaec",
+        "hidden": true,
+        "import": true,
+        "targetId": "d4c6-55c1-e552-9f6c",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Thunderfire Cannon [Legends]",
+        "id": "c0c8-ed41-35d7-d004",
+        "hidden": true,
+        "import": true,
+        "targetId": "2fa7-e488-c012-4af1",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Thunderhawk Transporter [Legends]",
+        "id": "8d93-37e8-abb3-927e",
+        "hidden": true,
+        "import": true,
+        "targetId": "1051-f1e8-4ef2-4575",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Vindicator Laser Destroyer [Legends]",
+        "id": "1ac7-5d1f-dc18-6e7c",
+        "hidden": true,
+        "import": true,
+        "targetId": "128d-5011-8e6-45a6",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "3026-158b-f7b-c323", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "6168-a0aa-86d7-5dfb", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "7297-84cf-d42d-82f4", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "0c1e-94eb-5fda-9199", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "f67c-347e-68c1-e5af", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "93e9-0229-4694-b0c8",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "7297-84cf-d42d-82f4",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "0c1e-94eb-5fda-9199",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "f67c-347e-68c1-e5af",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Whirlwind Scorpius [Legends]",
+        "id": "7795-911d-2974-74e7",
+        "hidden": true,
+        "import": true,
+        "targetId": "97dc-f0c8-1354-88fb",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "1847-94f2-5d09-1a04", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "e0f3-f119-ccff-8e92", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "8053-7ee1-f12b-e9ba", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "1f9b-96c7-3466-549c", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "b00c-df51-bced-e1fc", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "25f9-2c3e-104f-0afd",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "8053-7ee1-f12b-e9ba",
+                "type": "set",
+                "value": 6,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1},
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "1f9b-96c7-3466-549c",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "b00c-df51-bced-e1fc",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
+      },
+      {
+        "name": "Xiphon Interceptor [Legends]",
+        "id": "b733-bbb9-7d4e-ee8f",
+        "hidden": true,
+        "import": true,
+        "targetId": "1aa5-d081-2442-4c37",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Astartes", "id": "ad90-1caa-46f7-cc01", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Imperium", "id": "5c0e-2c7a-c9f6-f52a", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
+        ],
+        "constraints": [
+          {"id": "a5df-1613-0d25-4e44", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
+          {"id": "33c4-1e02-f829-50f3", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
+          {"id": "c707-f7b1-b3f7-defd", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "ab11-f6c9-fdf1-6f26",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "a5df-1613-0d25-4e44",
+                "type": "set",
+                "value": 6,
+                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "33c4-1e02-f829-50f3",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "c707-f7b1-b3f7-defd",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
+                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "error", "type": "add", "value": "This Legends datasheet is no longer in the Munitorum Field Manual."}]
       }
     ],
     "infoLinks": [
