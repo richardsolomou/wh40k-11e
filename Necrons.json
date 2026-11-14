@@ -15279,7 +15279,8 @@
           {"name": "Faction: Necrons", "id": "d474-a0fb-5cd5-a524", "primary": false, "targetId": "ee0-cf31-4fb5-6b26"},
           {"name": "Infantry", "id": "86a6-a867-13ba-417c", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Fly", "id": "9c09-e5b5-7f99-a1a5", "primary": false, "targetId": "c619-2086-bbcf-69c9"},
-          {"name": "Triarch Praetorians", "id": "f8f3-29fc-dad8-9602", "primary": false, "targetId": "efd1-9381-2a42-9d2c"}
+          {"name": "Triarch Praetorians", "id": "f8f3-29fc-dad8-9602", "primary": false, "targetId": "efd1-9381-2a42-9d2c"},
+          {"name": "Triarch", "id": "e011-902d-f7d4-21f6", "hidden": false, "primary": false, "targetId": "8ddf-88ca-8b98-89b7"}
         ],
         "constraints": [
           {"id": "1f44-a965-d9f9-6917", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

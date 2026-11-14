@@ -5016,7 +5016,8 @@
           {"name": "Great Devourer", "id": "e6d5-db04-a14f-3ecc", "primary": false, "targetId": "7850-cc5a-c191-b80d"},
           {"name": "Tyrannocyte", "id": "b43e-721a-dcc2-ad3", "primary": false, "targetId": "6438-b712-55f4-c84c"},
           {"name": "Faction: Tyranids", "id": "74cf-4dbc-78d1-a876", "primary": false, "targetId": "d1d8-6ae0-1be7-e9e"},
-          {"name": "Vanguard Invader", "id": "c8f2-e34f-dfae-991e", "primary": false, "targetId": "5ff0-d52d-e2b8-9de"}
+          {"name": "Vanguard Invader", "id": "c8f2-e34f-dfae-991e", "primary": false, "targetId": "5ff0-d52d-e2b8-9de"},
+          {"name": "Frame", "id": "d47b-30b3-2b23-2b4d", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {"id": "ae79-ff27-90fb-6d0b", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

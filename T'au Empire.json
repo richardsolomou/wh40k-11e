@@ -17198,7 +17198,8 @@
           {"name": "Fly", "id": "dfa-c39e-8284-cdb9", "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Tidewall Shieldline", "id": "43ce-9c06-75bc-a3c6", "primary": false, "targetId": "88d1-d0ab-d5a7-48f2"},
           {"name": "Faction: T'au Empire", "id": "d60e-19d8-bb8-7eb", "primary": false, "targetId": "3d58-2655-391e-ecc"},
-          {"name": "Non-Kroot", "id": "8d06-3eb6-4b0c-b08d", "hidden": false, "primary": false, "targetId": "4814-7b6d-aea6-4228"}
+          {"name": "Non-Kroot", "id": "8d06-3eb6-4b0c-b08d", "hidden": false, "primary": false, "targetId": "4814-7b6d-aea6-4228"},
+          {"name": "Frame", "id": "1516-35e8-0845-0a30", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [{"id": "bc97-0721-27f1-aa4c", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 85}],

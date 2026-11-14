@@ -376,6 +376,14 @@
             "type": "append",
             "value": "+0",
             "conditions": [{"childId": "2801-9f1c-645d-cb3d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+          },
+          {
+            "field": "9896-9419-16a1-92fc",
+            "type": "set",
+            "value": "36\"",
+            "conditions": [
+              {"childId": "f588-a5fe-c979-292a", "childName": "Sagitaur", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+            ]
           }
         ]
       },
@@ -866,7 +874,8 @@
           {"name": "Character", "id": "4699-5604-2a38-566e", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Epic Hero", "id": "5241-4a5b-c8c7-3df8", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Ûthar the Destined", "id": "0974-7d55-af05-5970", "hidden": false, "primary": false, "targetId": "a360-cb11-e139-55df"},
-          {"name": "Leader", "id": "3417-01f4-744e-2b7f", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "3417-01f4-744e-2b7f", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Kâhl", "id": "fc42-e16d-9f01-1966", "hidden": false, "primary": false, "targetId": "ef5e-c660-d7fb-5b4b"}
         ],
         "constraints": [
           {
