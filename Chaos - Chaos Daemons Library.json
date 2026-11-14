@@ -12907,7 +12907,8 @@
           {"name": "Daemon", "id": "cfc0-481c-804-6ada", "hidden": false, "primary": false, "targetId": "9c0e-7e25-4580-e439"},
           {"name": "Tzeentch", "id": "3c23-b3d5-ca0c-f3", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
           {"name": "Tzeentch Battleline", "id": "660-d803-99a3-a0d2", "primary": false, "targetId": "a83e-ba41-7d03-5b2d"},
-          {"name": "Shadow Legion", "id": "5a68-a12b-67e6-d0d3", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"}
+          {"name": "Shadow Legion", "id": "5a68-a12b-67e6-d0d3", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
+          {"name": "Horrors", "id": "bf82-fee7-5675-2489", "hidden": false, "primary": false, "targetId": "3262-235e-8f70-6c36"}
         ],
         "constraints": [
           {
@@ -13405,7 +13406,8 @@
           {"name": "Daemon", "id": "b37c-bb1f-22a2-1af3", "hidden": false, "primary": false, "targetId": "9c0e-7e25-4580-e439"},
           {"name": "Tzeentch", "id": "d797-e536-56b8-23dd", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
           {"name": "Tzeentch Battleline", "id": "e54a-1c12-19f6-52f4", "primary": false, "targetId": "a83e-ba41-7d03-5b2d"},
-          {"name": "Shadow Legion", "id": "05a4-0d8a-9d35-6554", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"}
+          {"name": "Shadow Legion", "id": "05a4-0d8a-9d35-6554", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
+          {"name": "Horrors", "id": "2b7a-df5b-8ee7-3129", "hidden": false, "primary": false, "targetId": "3262-235e-8f70-6c36"}
         ],
         "constraints": [
           {

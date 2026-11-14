@@ -5725,6 +5725,22 @@
             "type": "set",
             "value": "4+",
             "conditions": [{"childId": "3832-4208-11e9-ca22", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+          },
+          {
+            "field": "2229-f494-25db-c5d3",
+            "type": "set",
+            "value": "4",
+            "conditions": [
+              {"childId": "cc21-45f0-ea98-6a21", "childName": "Traitor Enforcer", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+            ]
+          },
+          {
+            "field": "9ead-8a10-520-de15",
+            "type": "set",
+            "value": "0",
+            "conditions": [
+              {"childId": "cc21-45f0-ea98-6a21", "childName": "Traitor Enforcer", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+            ]
           }
         ]
       },
@@ -14861,7 +14877,8 @@
           {"name": "Character", "id": "1c37-8c8a-3d6d-8384", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Chaos", "id": "78ec-2434-d246-3f14", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"},
           {"name": "Warpsmith", "id": "4cb0-8b62-7db6-956f", "hidden": false, "primary": false, "targetId": "2b3b-8232-a809-4b79"},
-          {"name": "Leader", "id": "93bd-5883-0be6-1209", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "93bd-5883-0be6-1209", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Grenades", "id": "8d46-77c7-fe4b-082a", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"}
         ],
         "constraints": [
           {
@@ -15434,7 +15451,7 @@
                       {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "Melta 1, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "Melta 2, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   }
                 ],
@@ -42181,7 +42198,7 @@
                               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Lethal Hits", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Lethal Hits, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -62748,7 +62765,7 @@
                       {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
                       {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
                       {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                      {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                       {"name": "Keywords", "$text": "Pistol", "typeId": "7f1b-8591-2fcf-d01c"}

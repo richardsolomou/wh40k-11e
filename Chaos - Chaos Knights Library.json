@@ -10367,7 +10367,8 @@
           {"name": "Towering", "id": "80f8-1d7e-6499-9aad", "hidden": false, "primary": false, "targetId": "d666-e2c9-b6cc-5716"},
           {"name": "Cerastus", "id": "8d42-b509-2bb3-25fb", "hidden": false, "primary": false, "targetId": "b6d3-1a49-8a2a-b157"},
           {"name": "Knight Acheron", "id": "a919-6426-38d8-76bf", "hidden": false, "primary": false, "targetId": "584e-5840-20b0-1646"},
-          {"name": "Knight Character", "id": "0501-6251-44c9-c28c", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"}
+          {"name": "Knight Character", "id": "0501-6251-44c9-c28c", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"},
+          {"name": "Chaos", "id": "fdbf-8165-1135-5b49", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"}
         ],
         "constraints": [
           {
@@ -11487,8 +11488,7 @@
           {"name": "Chaos", "id": "a7cd-b637-95a4-ee0e", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"},
           {"name": "Abhorrent", "id": "bead-bbaf-bdc9-1001", "hidden": false, "primary": false, "targetId": "f2d9-b5e8-4183-cb0b"},
           {"name": "Knight Magaera", "id": "bf5e-cb43-30c4-8bef", "hidden": false, "primary": false, "targetId": "bacd-8441-eba2-f27"},
-          {"name": "Knight Character", "id": "4dbf-d74b-a2fa-d062", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"},
-          {"name": "Frame", "id": "91a8-01c6-01aa-7c28", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
+          {"name": "Knight Character", "id": "4dbf-d74b-a2fa-d062", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"}
         ],
         "constraints": [
           {
@@ -12128,8 +12128,7 @@
           {"name": "Chaos", "id": "dfe-40f2-8431-6186", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"},
           {"name": "Abhorrent", "id": "19f2-c6a0-5ff5-e0c0", "hidden": false, "primary": false, "targetId": "f2d9-b5e8-4183-cb0b"},
           {"name": "Knight Styrix", "id": "900e-8c1a-e988-8ada", "hidden": false, "primary": false, "targetId": "c220-ff0a-f567-33ec"},
-          {"name": "Knight Character", "id": "195f-5e3c-79f1-af45", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"},
-          {"name": "Frame", "id": "c22d-4c2b-b8b7-1efa", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
+          {"name": "Knight Character", "id": "195f-5e3c-79f1-af45", "hidden": false, "primary": false, "targetId": "4462-be90-ddf7-c404"}
         ],
         "constraints": [
           {

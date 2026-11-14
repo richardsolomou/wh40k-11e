@@ -10166,7 +10166,7 @@
                           {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
@@ -10355,7 +10355,8 @@
           {"name": "Fly", "id": "5ee0-e21b-30ee-e872", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Chaos", "id": "17e4-9d3c-cdfc-40c4", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"},
           {"name": "Tzeentch", "id": "85f8-c2a8-1ea3-b244", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
-          {"name": "Heldrake", "id": "1f3f-1c20-a2bb-8ce3", "hidden": false, "primary": false, "targetId": "41b5-9462-b98a-ed59"}
+          {"name": "Heldrake", "id": "1f3f-1c20-a2bb-8ce3", "hidden": false, "primary": false, "targetId": "41b5-9462-b98a-ed59"},
+          {"name": "Daemon", "id": "09d4-e08d-d8c5-dc13", "hidden": false, "primary": false, "targetId": "9c0e-7e25-4580-e439"}
         ],
         "constraints": [
           {
@@ -21407,7 +21408,7 @@
               {"name": "Sv", "$text": "7+", "typeId": "450-a17e-9d5e-29da"},
               {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "8+", "typeId": "58d2-b879-49c7-43bc"},
-              {"name": "OC", "$text": "0", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
               {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
             ]
@@ -21500,7 +21501,7 @@
                   {"name": "Sv", "$text": "7+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "7+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                 ]
@@ -21824,7 +21825,7 @@
                   {"name": "Sv", "$text": "7+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "8+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "0", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "25mm", "typeId": "nr-base-size"}
                 ]

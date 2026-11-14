@@ -10200,6 +10200,16 @@
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "94d-8a98-cf90-183e",
+                "type": "set",
+                "value": "2+",
+                "conditions": [
+                  {"childId": "ceb4-54e4-02d8-e84f", "childName": "Lord of Poxes", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           },
           {
@@ -10216,6 +10226,16 @@
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Hazardous, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "94d-8a98-cf90-183e",
+                "type": "set",
+                "value": "2+",
+                "conditions": [
+                  {"childId": "ceb4-54e4-02d8-e84f", "childName": "Lord of Poxes", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
