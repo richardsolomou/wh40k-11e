@@ -60638,7 +60638,7 @@
                     "name": "Weapon",
                     "id": "e2c1-6079-26be-b720",
                     "collective": false,
-                    "defaultSelectionEntryId": "none",
+                    "defaultSelectionEntryId": "3ac1-1fc5-a540-3545",
                     "hidden": false,
                     "import": true,
                     "constraints": [

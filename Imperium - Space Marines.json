@@ -29887,7 +29887,7 @@
                   {
                     "name": "Weapon Option",
                     "id": "d880-f154-6f34-4dd3",
-                    "defaultSelectionEntryId": "4ba2-32e0-91f-30a4",
+                    "defaultSelectionEntryId": "dbd9-d93d-1e49-eda7",
                     "hidden": false,
                     "constraints": [
                       {"id": "43be-af23-882e-4920", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -45267,7 +45267,7 @@
               {
                 "name": "Weapon Option",
                 "id": "38e4-a899-1d7c-369d",
-                "defaultSelectionEntryId": "a1d5-fc81-d4ef-d6c3",
+                "defaultSelectionEntryId": "9761-cbbc-5627-ab4a",
                 "hidden": false,
                 "constraints": [
                   {"id": "6ebb-e3ff-13fd-d7fd", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
