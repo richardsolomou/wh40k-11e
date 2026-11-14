@@ -3984,6 +3984,16 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Close-quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "type": "set",
+                "value": "",
+                "conditions": [
+                  {"childId": "23d2-ea9a-cc45-476", "childName": "Ragnar Blackmane", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
@@ -4908,7 +4918,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -5190,6 +5200,16 @@
               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+            ],
+            "modifiers": [
+              {
+                "field": "893f-9000-ccf7-648e",
+                "type": "set",
+                "value": "",
+                "conditions": [
+                  {"childId": "2574-a949-ae3f-58c2", "childName": "Death Company Captain with Jump Pack", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
@@ -68538,6 +68558,16 @@
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Hazardous, Close-quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "type": "set",
+                "value": "Hazardous",
+                "conditions": [
+                  {"childId": "2574-a949-ae3f-58c2", "childName": "Death Company Captain with Jump Pack", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           },
           {

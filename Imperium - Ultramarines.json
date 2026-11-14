@@ -3744,8 +3744,7 @@
           {"name": "Faction: Ultramarines", "id": "7ccf-3269-1dc5-2655", "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
           {"name": "Victrix Honour Guard", "id": "8f8d-a63a-6edb-ba03", "primary": false, "targetId": "22cb-9e28-8b9f-bbdf"},
           {"name": "Faction: Adeptus Astartes", "id": "20f2-d8ca-e355-da7e", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Tacticus", "id": "79ad-ea1d-e4aa-8210", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"},
-          {"name": "Epic Hero", "id": "6a98-d803-6f0d-d7e7", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"}
+          {"name": "Tacticus", "id": "79ad-ea1d-e4aa-8210", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [
           {"id": "de33-d60f-9c2c-022b", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

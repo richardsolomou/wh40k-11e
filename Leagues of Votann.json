@@ -5757,7 +5757,7 @@
                           {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]

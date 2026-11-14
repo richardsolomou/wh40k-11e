@@ -634,7 +634,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This unit can be attached to the following units:\nDEATHWING COMMAND SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, TERMINATOR SQUAD",
+                "$text": "This unit can be attached to the following units:\nDEATHWING COMMAND SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
