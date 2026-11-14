@@ -19302,52 +19302,66 @@
                       },
                       {"id": "773f-4050-b3f9-44f8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                     ],
-                    "entryLinks": [
-                      {"name": "Meltagun", "id": "49c0-32c6-0994-573b", "collective": false, "hidden": false, "targetId": "f0ee-44c4-e1b1-42d", "type": "selectionEntry"},
+                    "entryLinks": [{"name": "Meltagun", "id": "49c0-32c6-0994-573b", "collective": false, "hidden": false, "targetId": "f0ee-44c4-e1b1-42d", "type": "selectionEntry"}],
+                    "selectionEntries": [
                       {
                         "name": "Flamer",
-                        "id": "0a18-5adf-b1ad-a9a8",
+                        "id": "aad4-5ec4-cc9e-115f",
+                        "collective": false,
                         "hidden": false,
                         "import": true,
-                        "targetId": "95b9-c6e0-aa5a-87ef",
-                        "type": "selectionEntry",
+                        "type": "upgrade",
+                        "categoryLinks": [
+                          {"name": "Attacks Dx Weapon", "id": "c2e5-1007-0457-4df8", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+                          {"name": "Ranged Weapon", "id": "7b3e-1d42-9c0a-5f61", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
+                          {"name": "Torrent Weapon", "id": "c94f-2a87-0e13-6bd5", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+                        ],
                         "constraints": [
+                          {"id": "a5d8-984e-af7e-b5e6", "field": "selections", "includeChildForces": false, "includeChildSelections": true, "percentValue": false, "scope": "615-e6bf-cfd2-9384", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+                        "infoLinks": [
+                          {"name": "Ignores Cover", "id": "67e8-521c-2f45-41fa", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+                          {"name": "Torrent", "id": "1bd5-526-4619-2324", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+                        ],
+                        "profiles": [
                           {
-                            "id": "5851-cda9-5984-99b8",
-                            "field": "selections",
-                            "includeChildForces": false,
-                            "includeChildSelections": true,
-                            "percentValue": false,
-                            "scope": "615-e6bf-cfd2-9384",
-                            "shared": true,
-                            "type": "max",
-                            "value": 1
+                            "name": "Flamer",
+                            "id": "e0b3-e2cc-5b69-87d2",
+                            "hidden": false,
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "characteristics": [
+                              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                              {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+                              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                              {"name": "Keywords", "$text": "Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                            ]
                           }
                         ]
                       },
                       {
                         "name": "Plasma gun",
-                        "id": "e7a1-a59a-f7e0-91da",
+                        "id": "b455-5fb4-7ce4-72dc",
+                        "collective": false,
                         "hidden": false,
                         "import": true,
-                        "targetId": "f7dc-a17d-aece-165a",
-                        "type": "selectionEntry",
+                        "type": "upgrade",
+                        "categoryLinks": [{"name": "Ranged Weapon", "id": "4e8d-b260-71f9-a3c2", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"}],
                         "constraints": [
-                          {
-                            "id": "a5d8-984e-af7e-b5e6",
-                            "field": "selections",
-                            "includeChildForces": false,
-                            "includeChildSelections": true,
-                            "percentValue": false,
-                            "scope": "615-e6bf-cfd2-9384",
-                            "shared": true,
-                            "type": "max",
-                            "value": 1
-                          }
+                          {"id": "a5d8-984e-af7e-b5e6", "field": "selections", "includeChildForces": false, "includeChildSelections": true, "percentValue": false, "scope": "615-e6bf-cfd2-9384", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+                        "infoLinks": [
+                          {"name": "Hazardous", "id": "b525-c393-8b97-dca2", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+                          {"name": "Rapid Fire", "id": "110-f2dc-8004-ae16", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"},
+                          {"name": "➤ Plasma gun - standard", "id": "594d-4fba-7444-2853", "hidden": false, "targetId": "38ff-30e0-10e1-fb2a", "type": "profile"},
+                          {"name": "➤ Plasma gun - supercharge", "id": "a8ed-098e-c599-10fe", "hidden": false, "targetId": "8416-1e2b-edc1-7acf", "type": "profile"}
                         ]
-                      }
-                    ],
-                    "selectionEntries": [
+                      },
                       {
                         "name": "Havoc autocannon",
                         "id": "e9cb-69af-41c7-3e59",
