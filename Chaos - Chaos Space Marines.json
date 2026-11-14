@@ -68013,7 +68013,7 @@
       {
         "name": "Plasma gun",
         "id": "f7dc-a17d-aece-165a",
-        "collective": true,
+        "collective": false,
         "comment": "BS3+",
         "hidden": false,
         "import": true,
@@ -68030,7 +68030,7 @@
       {
         "name": "Flamer",
         "id": "95b9-c6e0-aa5a-87ef",
-        "collective": true,
+        "collective": false,
         "hidden": false,
         "import": true,
         "type": "upgrade",

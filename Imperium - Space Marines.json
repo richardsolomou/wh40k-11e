@@ -58950,7 +58950,7 @@
                 "id": "828b-bc4e-425f-7b5e",
                 "hidden": false,
                 "import": true,
-                "targetId": "eb61-5cd0-5242-74cc",
+                "targetId": "7eb4-c21c-d0a2-39df",
                 "type": "selectionEntry",
                 "constraints": [
                   {"id": "d963-f4c5-7513-6bab", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -78200,7 +78200,6 @@
       {
         "name": "Combat Knife",
         "id": "4094-85eb-397a-588d",
-        "collective": true,
         "comment": "A3 S4",
         "hidden": false,
         "import": true,
@@ -78289,7 +78288,6 @@
       {
         "name": "Shotgun",
         "id": "6bec-238e-7089-9c59",
-        "collective": true,
         "hidden": false,
         "import": true,
         "type": "upgrade",
