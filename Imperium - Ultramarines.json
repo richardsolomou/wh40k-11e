@@ -608,7 +608,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "9257-36a2-e9f2-edaf", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Ultramarines", "id": "af-ed2c-ee3b-7b1c", "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
           {"name": "Leader", "id": "cdaf-150f-13cc-7e1c", "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Explosives", "id": "6662-25a2-8a66-ab55", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "6662-25a2-8a66-ab55", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Tacticus", "id": "d642-a5a1-e802-14a7", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [{"id": "971a-45c9-4d1c-1fc", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -3696,7 +3697,7 @@
                   {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
                   {"name": "A", "$text": "7", "typeId": "2337-daa1-6682-b110"},
                   {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
-                  {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
                   {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
                   {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
                   {"name": "Keywords", "$text": "Precision", "typeId": "893f-9000-ccf7-648e"}
@@ -3715,7 +3716,7 @@
                   {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
                   {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
                   {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                  {"name": "Keywords", "$text": "Sustained Hits 1", "typeId": "893f-9000-ccf7-648e"}
+                  {"name": "Keywords", "$text": "Sustained Hits 1: Infantry", "typeId": "893f-9000-ccf7-648e"}
                 ]
               }
             ]
@@ -3743,7 +3744,8 @@
           {"name": "Faction: Ultramarines", "id": "7ccf-3269-1dc5-2655", "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
           {"name": "Victrix Honour Guard", "id": "8f8d-a63a-6edb-ba03", "primary": false, "targetId": "22cb-9e28-8b9f-bbdf"},
           {"name": "Faction: Adeptus Astartes", "id": "20f2-d8ca-e355-da7e", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Tacticus", "id": "79ad-ea1d-e4aa-8210", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
+          {"name": "Tacticus", "id": "79ad-ea1d-e4aa-8210", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"},
+          {"name": "Epic Hero", "id": "6a98-d803-6f0d-d7e7", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"}
         ],
         "constraints": [
           {"id": "de33-d60f-9c2c-022b", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

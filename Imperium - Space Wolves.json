@@ -9834,9 +9834,9 @@
           {"name": "Faction: Adeptus Astartes", "id": "8508-fd1c-a749-c025", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Space Wolves", "id": "c217-aa10-4db4-e946", "primary": false, "targetId": "a0d9-c115-2a-8330"},
           {"name": "Mounted", "id": "9a73-e497-81a9-f778", "primary": true, "targetId": "14a0-40c9-2748-ae6e"},
-          {"name": "Grenades", "id": "e661-f1e3-9488-c216", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "8eac-4096-c2a6-ad3c", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Thunderwolf Cavalry", "id": "3768-38de-e622-4f5f", "primary": false, "targetId": "c6da-5578-9ad5-94ef"}
+          {"name": "Thunderwolf Cavalry", "id": "3768-38de-e622-4f5f", "primary": false, "targetId": "c6da-5578-9ad5-94ef"},
+          {"name": "Explosives", "id": "a476-ce21-88cf-c713", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "9433-62d1-0425-90fd", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

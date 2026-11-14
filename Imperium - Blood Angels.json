@@ -247,7 +247,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "7602-2152-3830-4f1d", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Blood Angels", "id": "b2fd-e768-9174-9e5b", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Astorath", "id": "5e2c-d136-51e8-cf0c", "primary": false, "targetId": "da64-bc59-71f9-96e8"},
-          {"name": "Leader", "id": "1bf5-b212-1482-9f18", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "1bf5-b212-1482-9f18", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Tacticus", "id": "aaa5-63d8-9f90-22ab", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [{"id": "373e-99de-ce49-806b", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -1742,7 +1743,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "440f-cff0-1134-f3d2", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Blood Angels", "id": "9a7e-5e89-fe1c-afb9", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Chief Librarian Mephiston", "id": "1e2c-42d8-5d7c-2a8c", "primary": false, "targetId": "369e-b2c9-4637-8cba"},
-          {"name": "Explosives", "id": "1eb7-1ea6-a216-b158", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "1eb7-1ea6-a216-b158", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Imperium", "id": "0b3b-d30f-324e-4df8", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
         ],
         "constraints": [{"id": "76f1-154d-581a-b2ae", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -5226,7 +5228,8 @@
           {"name": "Faction: Blood Angels", "id": "2458-9dd0-bd9a-ebc", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Jump Pack", "id": "26c6-9ca3-e011-47b", "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
           {"name": "Leader", "id": "85e2-c17a-5848-5787", "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Explosives", "id": "c103-4ef7-38f1-b394", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "c103-4ef7-38f1-b394", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Death Company", "id": "d7fc-22af-8136-e082", "hidden": false, "primary": false, "targetId": "7278-781b-ce6c-d23c"}
         ],
         "constraints": [{"id": "c4cb-6409-6c33-6458", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -8055,13 +8058,13 @@
         "categoryLinks": [
           {"name": "Infantry", "id": "e7e3-3a3f-3162-3112", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Character", "id": "9349-1078-0ef5-e100", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
-          {"name": "Grenades", "id": "2d53-4ea3-41cc-31b8", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "b384-f04e-82f9-1a29", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Captain", "id": "ecfa-ade5-383d-2318", "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
           {"name": "Faction: Adeptus Astartes", "id": "5345-68be-18bd-ab25", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Blood Angels", "id": "fe57-cc4e-a7c5-60fe", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Tacticus", "id": "c103-7d78-fdc4-8a58", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
-          {"name": "Leader", "id": "c74e-5aad-50e3-1933", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "c74e-5aad-50e3-1933", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "4b6b-271f-42d9-fa7f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "f624-815a-bca5-137a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -9351,7 +9354,7 @@
                 ],
                 "entryLinks": [
                   {"name": "Hand flamer", "id": "b9d1-111a-c8fa-00a9", "hidden": false, "import": true, "targetId": "9dc6-6ad8-818e-db2e", "type": "selectionEntry"},
-                  {"name": "Plasma pistol", "id": "90e0-ddc7-d99a-dc9c", "hidden": false, "import": true, "targetId": "25c2-104f-fa0c-809e", "type": "selectionEntry"}
+                  {"name": "Plasma pistol", "id": "90e0-ddc7-d99a-dc9c", "hidden": false, "import": true, "targetId": "72c9-4b92-5aed-2fbe", "type": "selectionEntry"}
                 ],
                 "selectionEntries": [
                   {
@@ -9371,10 +9374,10 @@
                           {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "Close-quarters", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -10104,13 +10107,13 @@
         "type": "unit",
         "categoryLinks": [
           {"name": "Infantry", "id": "b9e0-f110-6f3a-4fb0", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "92d1-4fb8-ff23-39da", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "ea6a-1ce7-b63c-708f", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Adeptus Astartes", "id": "ffb6-3cd1-274d-bcbe", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Blood Angels", "id": "7e0f-489d-ad94-f447", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Death Company Marines", "id": "56c3-9e1d-6904-04bb", "primary": false, "targetId": "caed-a62d-2318-dda1"},
           {"name": "Tacticus", "id": "c38e-ba92-47a2-8ef8", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
-          {"name": "Death Company", "id": "25f2-fecf-dadb-aaa9", "hidden": false, "primary": false, "targetId": "7278-781b-ce6c-d23c"}
+          {"name": "Death Company", "id": "25f2-fecf-dadb-aaa9", "hidden": false, "primary": false, "targetId": "7278-781b-ce6c-d23c"},
+          {"name": "Explosives", "id": "4d1a-fb57-0496-5988", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "7e85-e567-56c8-db3a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},

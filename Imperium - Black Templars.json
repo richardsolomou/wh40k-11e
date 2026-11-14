@@ -329,7 +329,7 @@
                       {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "Close-quarters, Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "Close-quarters, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   },
                   {
@@ -515,7 +515,6 @@
         "categoryLinks": [
           {"name": "Epic Hero", "id": "ace8-c505-59f5-9b12", "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Character", "id": "ff1-8239-8e0d-345e", "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
-          {"name": "Grenades", "id": "d591-a3f3-c1c-7010", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "892a-d691-e06-62a4", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Adeptus Astartes", "id": "d00a-d347-a06f-a080", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Tacticus", "id": "cc1e-aea0-f148-eb97", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
@@ -523,7 +522,8 @@
           {"name": "Infantry", "id": "e2ca-fe6-e8e1-a6fc", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Faction: Black Templars", "id": "76cd-1c58-282a-1407", "primary": false, "targetId": "9249-acae-2882-d95"},
           {"name": "Chapter Master", "id": "c323-d6bc-f189-e226", "primary": false, "targetId": "5bd8-882d-302b-48f3"},
-          {"name": "Leader", "id": "c35c-2593-c89d-1f8a", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "c35c-2593-c89d-1f8a", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "1436-a7e5-f506-1de1", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [{"id": "bd58-f8e3-ea61-da21", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -1612,12 +1612,12 @@
         "type": "unit",
         "categoryLinks": [
           {"name": "Infantry", "id": "f9d2-a24f-a67f-35ea", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "e072-bbdd-1eae-c45d", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "27ef-57d5-6329-6d6f", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Tacticus", "id": "b54e-f476-2915-4593", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
           {"name": "Faction: Adeptus Astartes", "id": "83ef-8cc0-b9eb-4515", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Black Templars", "id": "43fd-f6ed-e68a-831e", "primary": false, "targetId": "9249-acae-2882-d95"},
-          {"name": "Sword Brethren Squad", "id": "d1fa-1e6c-acfa-022d", "primary": false, "targetId": "f790-2929-6951-c241"}
+          {"name": "Sword Brethren Squad", "id": "d1fa-1e6c-acfa-022d", "primary": false, "targetId": "f790-2929-6951-c241"},
+          {"name": "Explosives", "id": "2ef0-1253-b1e4-3663", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "c95b-afe2-eb2f-88e6", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -3427,7 +3427,7 @@
                       {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "Devastating Wounds: Non-Monster/Vehicle, Sustained Hits 2: Non-Monster/Vehicle Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "Devastating Wounds: Non-Monster/Vehicle, Sustained Hits 2: Non-Monster/Vehicle, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   }
                 ]
@@ -6226,7 +6226,7 @@
               {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
               {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
@@ -6275,13 +6275,13 @@
           {"name": "Infantry", "id": "f474-d5de-a398-1662", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Character", "id": "3c22-bf7a-c304-b258", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Chaplain", "id": "a603-8ea1-4c37-629f", "primary": false, "targetId": "1fb1-3603-a4bd-485"},
-          {"name": "Grenades", "id": "6af1-f489-fdef-b0b3", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "04e8-3bfb-9048-de5c", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Tacticus", "id": "de47-b726-6e9d-d82a", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
           {"name": "Faction: Adeptus Astartes", "id": "6e01-bcb8-db6b-fb25", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Black Templars", "id": "e467-a61d-1e47-5f67", "primary": false, "targetId": "9249-acae-2882-d95"},
           {"name": "Execrator", "id": "b1c6-0301-3f7c-0ff7", "primary": false, "targetId": "a4bd-e355-816d-d093"},
-          {"name": "Leader", "id": "fbb6-2546-4206-7080", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "fbb6-2546-4206-7080", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "a37b-205b-7344-c900", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "e9a1-3929-7af7-815e", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},

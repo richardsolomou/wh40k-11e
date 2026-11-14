@@ -4046,6 +4046,16 @@
               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "typeId": "893f-9000-ccf7-648e"}
+            ],
+            "modifiers": [
+              {
+                "field": "893f-9000-ccf7-648e",
+                "type": "set",
+                "value": "Precision",
+                "conditions": [
+                  {"childId": "d243-71f3-d17a-6850", "childName": "Wardens of Ultramar", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
@@ -5201,7 +5211,7 @@
               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
               {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
               {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
-              {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
@@ -5608,7 +5618,7 @@
                         "id": "ac28-c9fe-ef96-b5fe",
                         "hidden": false,
                         "import": true,
-                        "targetId": "3b8f-1cb7-3c6e-4455",
+                        "targetId": "eca4-d5d2-18a1-01a8",
                         "type": "selectionEntry",
                         "entryLinks": [{"name": "Weapon Upgrades", "id": "5327-0b6d-b389-539f", "hidden": false, "import": true, "targetId": "8cf2-a48c-58d2-cb4e", "type": "selectionEntryGroup"}]
                       },
@@ -5744,7 +5754,7 @@
                     "id": "c9df-1a22-9fec-7150",
                     "hidden": false,
                     "import": true,
-                    "targetId": "3b8f-1cb7-3c6e-4455",
+                    "targetId": "eca4-d5d2-18a1-01a8",
                     "type": "selectionEntry",
                     "constraints": [
                       {"id": "6773-4067-e142-5cb2-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -5852,7 +5862,7 @@
               {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Close-quarters, Melta 2", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Close-quarters, Melta 1", "typeId": "7f1b-8591-2fcf-d01c"}
             ],
             "modifiers": [
               {
@@ -5861,6 +5871,20 @@
                 "value": "2+",
                 "conditionGroups": [
                   {"type": "or", "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]}
+                ]
+              },
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "type": "set",
+                "value": "Close-quarters, Melta 2",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "bdaf-42a5-97ee-2767", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "c7d2-a98d-4ad2-c426", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
                 ]
               }
             ]
@@ -21280,7 +21304,7 @@
               {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicles", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicle", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -30396,7 +30420,7 @@
                             "characteristics": [
                               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                               {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
@@ -36000,7 +36024,7 @@
                       {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicles, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicle, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   }
                 ]
@@ -40381,7 +40405,8 @@
           {"name": "Drop Pod", "id": "2cb9-fe56-af16-ea77", "primary": false, "targetId": "d2a7-36c6-51bd-6568"},
           {"name": "Transport", "id": "4c52-ea1e-1e3e-ddb", "primary": false, "targetId": "75e8-57c4-40e3-1817"},
           {"name": "Dedicated Transport", "id": "8edc-dfa4-9f39-ce19", "primary": true, "targetId": "ba07-411c-2832-1f79"},
-          {"name": "Frame", "id": "043a-a4ac-7bac-0eb7", "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
+          {"name": "Frame", "id": "043a-a4ac-7bac-0eb7", "primary": false, "targetId": "b927-8eeb-7cc3-8dec"},
+          {"name": "Faction: Adeptus Astartes", "id": "82c3-e69b-9e5e-9d54", "hidden": false, "primary": false, "targetId": "6e7-40c-58d9-e402"}
         ],
         "constraints": [
           {"id": "8094-3c6c-1d6d-3de5", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -43871,7 +43896,7 @@
                         "id": "4b58-7639-443a-205f",
                         "hidden": false,
                         "import": true,
-                        "targetId": "25c2-104f-fa0c-809e",
+                        "targetId": "72c9-4b92-5aed-2fbe",
                         "type": "selectionEntry",
                         "entryLinks": [{"name": "Weapon Upgrades", "id": "5291-b7b1-e90d-1eed", "hidden": false, "import": true, "targetId": "8cf2-a48c-58d2-cb4e", "type": "selectionEntryGroup"}]
                       },
@@ -44732,10 +44757,10 @@
                           {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Assault, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -47054,12 +47079,12 @@
         "categoryLinks": [
           {"name": "Character", "id": "629e-8a4a-1df3-3e4b", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "5077-7032-b22f-6807", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "835b-d94a-a360-b761", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Tacticus", "id": "a68d-c59d-c0e8-5325", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
           {"name": "Imperium", "id": "158d-34ab-4bd2-b5ea", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Adeptus Astartes", "id": "496a-429e-567d-f6c5", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Chaplain", "id": "ecb0-1e6c-2c11-e182", "primary": false, "targetId": "1fb1-3603-a4bd-485"},
-          {"name": "Leader", "id": "cc39-e41b-a6c7-1363", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "cc39-e41b-a6c7-1363", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "cb44-f143-93a3-a5f4", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "b137-64d0-2321-e911", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -48411,7 +48436,8 @@
           {"name": "Fly", "id": "a36b-b954-3465-55b5", "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Jump Pack", "id": "b8e5-88ba-773d-eb9c", "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
           {"name": "Leader", "id": "40a8-08e5-487a-e095", "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Tacticus", "id": "aa02-41fc-3198-0db1", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
+          {"name": "Tacticus", "id": "aa02-41fc-3198-0db1", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"},
+          {"name": "Explosives", "id": "303b-7640-1b19-6516", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "3df8-644d-7e51-b2a7", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -49707,7 +49733,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "a5e0-e852-4950-c3c0", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Phobos", "id": "c97d-9f81-f937-40d9", "primary": false, "targetId": "7295-ed65-8ff4-7a5f"},
           {"name": "Lieutenant", "id": "620a-6b0f-e688-aa1c", "primary": false, "targetId": "9c1a-42ff-a418-11d1"},
-          {"name": "Explosives", "id": "70be-7f00-1098-adad", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "70be-7f00-1098-adad", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Smoke", "id": "6888-5c16-1a0d-db51", "hidden": false, "primary": false, "targetId": "6df-937-16bc-8c1a"}
         ],
         "constraints": [
           {"id": "e8c0-16a5-7711-a797", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -51296,7 +51323,7 @@
               {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
               {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-              {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
               {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
             ]
@@ -55081,7 +55108,8 @@
           {"name": "Vehicle", "id": "de6b-dcd9-2082-4e6c", "primary": true, "targetId": "dbd4-63-af05-998"},
           {"name": "Titanic", "id": "eac3-ddc4-ba19-f5d9", "primary": false, "targetId": "5929-ad51-d006-e008"},
           {"name": "Imperium", "id": "e32f-a554-6890-7472", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Astraeus", "id": "7bb5-e8c1-865f-72b3", "primary": false, "targetId": "2f70-e05d-9fa7-9b99"}
+          {"name": "Astraeus", "id": "7bb5-e8c1-865f-72b3", "primary": false, "targetId": "2f70-e05d-9fa7-9b99"},
+          {"name": "Frame", "id": "84cc-9770-c25e-01f5", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {"id": "e71d-c56d-1664-b803", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -68823,12 +68851,12 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Blast 1, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -74610,7 +74638,7 @@
             "typeName": "Melee Weapons",
             "characteristics": [
               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-              {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+              {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
               {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
               {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
               {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
@@ -74823,7 +74851,8 @@
           {"name": "Vehicle", "id": "e8fc-6985-f33d-eebe", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
           {"name": "Imperium", "id": "419d-fead-ff59-e353", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Adeptus Astartes", "id": "9599-02de-1d15-0d54", "hidden": false, "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Invader ATV", "id": "1bdf-3213-9342-75fa", "hidden": false, "primary": false, "targetId": "4039-5a6c-522b-8faf"}
+          {"name": "Invader ATV", "id": "1bdf-3213-9342-75fa", "hidden": false, "primary": false, "targetId": "4039-5a6c-522b-8faf"},
+          {"name": "Frame", "id": "c913-0388-8074-b107", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {"id": "16e0-dca5-59f1-8ef2", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -75182,7 +75211,7 @@
                             "characteristics": [
                               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                               {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
@@ -75259,6 +75288,16 @@
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Melta 3", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "a354-c1c8-a745-f9e3",
+                "type": "set",
+                "value": "D3+3",
+                "conditions": [
+                  {"childId": "6c52-7965-8831-a46f", "childName": "Land Raider Crusader", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
@@ -78551,8 +78590,8 @@
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Assault, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Assault, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           },
           {
@@ -78570,7 +78609,7 @@
               {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Assault, Hazardous, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+              {"name": "Keywords", "$text": "Assault, Hazardous, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]
@@ -78602,7 +78641,7 @@
               {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
               {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Close-quarters, Lethal Hits, Precision", "typeId": "7f1b-8591-2fcf-d01c"}
@@ -80002,13 +80041,13 @@
         "type": "unit",
         "categoryLinks": [
           {"name": "Infantry", "id": "724-5cc5-c3ce-22ef", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "cb0b-4033-8cb9-3e7b", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "440d-60e0-37b3-eaf8", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Gravis", "id": "301b-b4d3-4949-1e15", "primary": false, "targetId": "81f0-f40e-c36c-5a30"},
           {"name": "Faction: Adeptus Astartes", "id": "547c-1ec2-1128-7c8c", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Deathwatch", "id": "1852-8090-6030-8ba1", "hidden": false, "primary": false, "targetId": "d39c-9989-db7f-d815"},
           {"name": "Kill Team", "id": "fd53-4c4c-ad07-54a0", "hidden": false, "primary": false, "targetId": "81b0-a893-4fb7-c298"},
-          {"name": "Indomitor Kill Team", "id": "e909-8505-c1d6-936c", "hidden": false, "primary": false, "targetId": "2546-062b-7236-7fa3"}
+          {"name": "Indomitor Kill Team", "id": "e909-8505-c1d6-936c", "hidden": false, "primary": false, "targetId": "2546-062b-7236-7fa3"},
+          {"name": "Explosives", "id": "9edc-e781-7b05-2734", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "6602-32ae-7a19-30a7", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -80449,7 +80488,7 @@
                               {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Heavy, Melta 3", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Melta 3", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           },
                           {
@@ -81916,7 +81955,7 @@
                             "characteristics": [
                               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                               {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
@@ -82168,10 +82207,10 @@
           {"name": "Infantry", "id": "9b5d-f6c5-9431-1e57", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Fly", "id": "8369-4a3e-9b3f-9d7d", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Jump Pack", "id": "8f8e-196e-cdb9-0b93", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
-          {"name": "Grenades", "id": "1b20-cf56-32e2-859a", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "2efe-03f0-ebb9-4046", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Kill Team", "id": "3bf9-eb5d-ac98-096c", "hidden": false, "primary": false, "targetId": "81b0-a893-4fb7-c298"},
-          {"name": "Talonstrike Kill Team", "id": "480a-4e71-6e90-d954", "hidden": false, "primary": false, "targetId": "4082-03bb-1ab3-a93b"}
+          {"name": "Talonstrike Kill Team", "id": "480a-4e71-6e90-d954", "hidden": false, "primary": false, "targetId": "4082-03bb-1ab3-a93b"},
+          {"name": "Explosives", "id": "1b61-e6f5-4a8e-33c1", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [
           {"id": "03dd-d9ef-d9a9-b551", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -82549,7 +82588,7 @@
                         "id": "e5dd-1e97-9c87-6ac4",
                         "hidden": false,
                         "import": true,
-                        "targetId": "a7b6-eeb7-d0e4-b84c",
+                        "targetId": "c4b5-68e-2266-f459",
                         "type": "selectionEntry",
                         "entryLinks": [
                           {"name": "Weapon Modifications", "id": "3ac7-ad01-af31-8591", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}

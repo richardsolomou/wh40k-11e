@@ -350,12 +350,12 @@
           {"name": "Character", "id": "b121-cbde-fd47-a423", "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Epic Hero", "id": "e2b5-2ce9-3ccc-a9d7", "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Imperium", "id": "f132-e8bf-f850-0185", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Grenades", "id": "d591-2567-2e4d-3b1c", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Captain", "id": "05d8-1f12-2f9c-b1ab", "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
           {"name": "Faction: Adeptus Astartes", "id": "3679-afa4-5a9f-945b", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: White Scars", "id": "00d0-1140-3de4-e545", "primary": false, "targetId": "5c0e-2250-dd3a-1df9"},
           {"name": "Suboden Khan", "id": "6d62-4480-e164-9558", "primary": false, "targetId": "b20a-783c-0d41-7238"},
-          {"name": "Leader", "id": "4917-1011-5577-0d72", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "4917-1011-5577-0d72", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "b789-0c55-4c22-c56c", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [{"id": "3efb-3875-0585-1de4", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -510,7 +510,7 @@
                       {"name": "A", "$text": "8", "typeId": "3bb-c35f-f54-fb08"},
                       {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                       {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                      {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                       {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
