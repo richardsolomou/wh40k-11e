@@ -409,6 +409,14 @@
             "type": "append",
             "value": "+0",
             "conditions": [{"childId": "584b-5fa7-a3c3-942e", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+          },
+          {
+            "field": "9896-9419-16a1-92fc",
+            "type": "set",
+            "value": "36\"",
+            "conditions": [
+              {"childId": "f588-a5fe-c979-292a", "childName": "Sagitaur", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+            ]
           }
         ]
       },

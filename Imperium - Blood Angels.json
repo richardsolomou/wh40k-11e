@@ -5229,7 +5229,8 @@
           {"name": "Jump Pack", "id": "26c6-9ca3-e011-47b", "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
           {"name": "Leader", "id": "85e2-c17a-5848-5787", "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Explosives", "id": "c103-4ef7-38f1-b394", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Death Company", "id": "d7fc-22af-8136-e082", "hidden": false, "primary": false, "targetId": "7278-781b-ce6c-d23c"}
+          {"name": "Death Company", "id": "d7fc-22af-8136-e082", "hidden": false, "primary": false, "targetId": "7278-781b-ce6c-d23c"},
+          {"name": "Tacticus", "id": "bc93-c104-6b83-4bd1", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [{"id": "c4cb-6409-6c33-6458", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [

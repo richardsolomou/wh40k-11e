@@ -29902,6 +29902,16 @@
               {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ],
+            "modifiers": [
+              {
+                "field": "2337-daa1-6682-b110",
+                "type": "set",
+                "value": "5",
+                "conditions": [
+                  {"childId": "a7c2-1534-93b0-c0eb", "childName": "Ogryn Bodyguard", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
             ]
           }
         ]
