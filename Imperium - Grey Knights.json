@@ -397,7 +397,8 @@
           {"name": "Infantry", "id": "9460-79cf-6237-6c1", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Imperium", "id": "50ad-8fb5-a7e5-baf7", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Character", "id": "644f-e76b-ecac-516e", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
-          {"name": "Leader", "id": "206a-6f34-ae15-9a5a", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "206a-6f34-ae15-9a5a", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Grenades", "id": "9b47-9f1c-8cc4-0e81", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"}
         ],
         "constraints": [
           {"id": "a606-e35a-5ea6-9bc5", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -1062,7 +1063,8 @@
           {"name": "Imperium", "id": "6be9-bebe-993a-c05a", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Grey Knights", "id": "97bb-e9b6-41bd-ade9", "primary": false, "targetId": "d564-3284-bf44-b873"},
           {"name": "Brotherhood Champion", "id": "2bd5-bd1d-9831-5fb4", "primary": false, "targetId": "c427-b327-40a0-a401"},
-          {"name": "Leader", "id": "7633-ddc3-e44b-f111", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "7633-ddc3-e44b-f111", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Grenades", "id": "9055-87a7-dce7-7b28", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"}
         ],
         "constraints": [
           {"id": "7d82-0d60-0cbf-81c6", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -1378,7 +1380,7 @@
                 "id": "a821-6be6-3e28-c6b0",
                 "hidden": false,
                 "import": true,
-                "targetId": "18c1-d4b5-0ff0-4808",
+                "targetId": "be2a-878d-7003-2f51",
                 "type": "selectionEntry",
                 "constraints": [
                   {"id": "5644-155f-84a2-4e06", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
@@ -1794,7 +1796,7 @@
                 "id": "e9e7-e166-cd16-3070",
                 "hidden": false,
                 "import": true,
-                "targetId": "be2a-878d-7003-2f51",
+                "targetId": "18c1-d4b5-0ff0-4808",
                 "type": "selectionEntry",
                 "constraints": [
                   {"id": "55d8-9589-4015-7f57", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
@@ -2269,7 +2271,7 @@
                     "id": "fb41-0f9a-0bff-2d7a",
                     "hidden": false,
                     "import": true,
-                    "targetId": "be2a-878d-7003-2f51",
+                    "targetId": "18c1-d4b5-0ff0-4808",
                     "type": "selectionEntry",
                     "entryLinks": [{"name": "Weapon Upgrades", "id": "93c4-da0a-1e43-d60d", "hidden": false, "import": true, "targetId": "0d47-adec-f8da-f1be", "type": "selectionEntryGroup"}]
                   }
@@ -2350,7 +2352,8 @@
           {"name": "Imperium", "id": "74db-330c-298f-3ece", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Grey Knights", "id": "7e67-89b0-52df-5e63", "primary": false, "targetId": "d564-3284-bf44-b873"},
           {"name": "Brotherhood Techmarine", "id": "7f6d-2e95-89a8-4af7", "primary": false, "targetId": "c352-657f-d2cc-adcf"},
-          {"name": "Leader", "id": "1969-8c47-c5d6-0fc3", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "1969-8c47-c5d6-0fc3", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Grenades", "id": "950f-9587-3b2c-5a77", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"}
         ],
         "constraints": [
           {"id": "a274-391e-02bb-adec", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -3539,7 +3542,8 @@
           {"name": "Epic Hero", "id": "8cfc-c1ef-5722-d8e6", "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Infantry", "id": "94f-cf05-f0db-2b64", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Character", "id": "53c2-253c-4f3-df1c", "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
-          {"name": "Leader", "id": "d925-37c5-90bb-ed83", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "d925-37c5-90bb-ed83", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Grenades", "id": "f616-da2f-35a2-24e4", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"}
         ],
         "constraints": [{"id": "d931-cf03-1538-5c4e", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -7053,7 +7057,7 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},

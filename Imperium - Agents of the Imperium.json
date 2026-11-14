@@ -14465,7 +14465,7 @@
                               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Psychic, Sustained Hits 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Precision, Psychic, Sustained Hits 1", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -27346,13 +27346,13 @@
           {"name": "Epic Hero", "id": "85ef-74f8-3a94-557e", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Character", "id": "d2ac-42f8-d798-ef54", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "e2a7-be9c-2b11-e593", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "754e-5838-017e-a3f1", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
           {"name": "Imperium", "id": "8e84-6772-ae4f-dda0", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Faction: Agents of the Imperium", "id": "9b0c-4926-7f70-8db4", "hidden": false, "primary": false, "targetId": "5128-90b-e4a5-dcbd"},
           {"name": "Watch Captain Artemis", "id": "8c85-c8c0-010c-516a", "hidden": false, "primary": false, "targetId": "4dde-9319-6f3c-0c04"},
           {"name": "Ordo Xenos", "id": "45e7-8529-529c-deb9", "hidden": false, "primary": false, "targetId": "ab1c-1334-d1cc-08df"},
           {"name": "Leader", "id": "f026-53a8-52fe-63a8", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Captain", "id": "0605-c88a-5396-9e53", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"}
+          {"name": "Captain", "id": "0605-c88a-5396-9e53", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
+          {"name": "Explosives", "id": "8807-82b8-0d4d-9757", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
         ],
         "constraints": [{"id": "84f4-787d-91a7-2404", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -28031,7 +28031,7 @@
             "typeName": "Ranged Weapons",
             "characteristics": [
               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
@@ -29329,7 +29329,7 @@
                         "characteristics": [
                           {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
@@ -29861,9 +29861,9 @@
             "characteristics": [
               {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
               {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-              {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
               {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Blast 1, Heavy, Lethal Hits, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
             ]

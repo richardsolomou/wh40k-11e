@@ -231,6 +231,16 @@
           {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
           {"name": "Keywords", "$text": "Pistol", "typeId": "7f1b-8591-2fcf-d01c"}
+        ],
+        "modifiers": [
+          {
+            "field": "94d-8a98-cf90-183e",
+            "type": "set",
+            "value": "2+",
+            "conditions": [
+              {"childId": "c027-f44-1c7f-62f5", "childName": "Palatine", "field": "selections", "includeChildSelections": false, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+            ]
+          }
         ]
       },
       {
@@ -2584,7 +2594,8 @@
           {"name": "Canoness", "id": "dd73-8f5c-e6fb-6bb", "primary": false, "targetId": "fef8-7c60-b716-cf27"},
           {"name": "Faction: Adepta Sororitas", "id": "5865-74c2-fccf-70a7", "primary": false, "targetId": "fd71-afa6-b13b-7fda"},
           {"name": "Sororitas Character", "id": "4d49-d597-08ff-fb77", "hidden": false, "primary": false, "targetId": "06f3-c7f0-3763-211c"},
-          {"name": "Leader", "id": "e76c-2dae-19be-89fe", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "e76c-2dae-19be-89fe", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Imperium", "id": "62a2-b610-58cc-60aa", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"}
         ],
         "constraints": [
           {"id": "0437-77bf-8759-e40e", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -18603,7 +18614,7 @@
                             "characteristics": [
                               {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
                               {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
