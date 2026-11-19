@@ -48751,30 +48751,30 @@
             ]
           },
           {
-            "name": "[Psychic Abilities] - Veil of Time (Psychic Level 1)",
+            "name": "Veil of Time (psychic level 1)",
             "id": "3ad5-964d-3835-73cc",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "When this unit is selected to make an advance move, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ This unit can change that advance roll to a 6.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           },
           {
-            "name": "[Psychic Abilities] - Force Dome (Psychic Level 1)",
+            "name": "Force Dome (psychic level 1)",
             "id": "a97e-6a4c-de68-4a4d",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "In your Movement phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ This unit has 4+ InSv until the start of your next turn.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           }
@@ -49350,30 +49350,30 @@
             ]
           },
           {
-            "name": "[Psychic Abilities] - Shrouding (Psychic Level 1)",
+            "name": "Shrouding (psychic level 1)",
             "id": "5529-bbb2-8c35-a970",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "When an enemy unit targets this unit, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ Attacks that target this unit have -1 to hit rolls until the end of the phase.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           },
           {
-            "name": "[Psychic Abilities] - Soul Sight (Psychic Level 1)",
+            "name": "Soul Sight (psychic level 1)",
             "id": "9965-830e-2428-6051",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ Select one visible enemy unit. Ranged attacks that target that enemy unit have [IGNORES COVER].",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           }
@@ -49822,30 +49822,30 @@
             ]
           },
           {
-            "name": "[Psychic Abilities] - Might of Heroes (Psychic Level 1)",
+            "name": "Might of Heroes (psychic level 1)",
             "id": "6f31-0a5b-7d97-b385",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "In the Fight phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ This unit's melee attacks have +2 S.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           },
           {
-            "name": "[Psychic Abilities] - Thunderous Force (Psychic Level 1)",
+            "name": "Thunderous Force (psychic level 1)",
             "id": "f4dd-8801-66d8-18f6",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
             "characteristics": [
               {
-                "name": "Description",
+                "name": "Descriptions",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do: \n▪ On a 1, this unit is battle-shocked. \n▪ This unit's ranged attacks have +6\" R.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           }

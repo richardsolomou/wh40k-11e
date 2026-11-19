@@ -50,6 +50,15 @@
         "type": "selectionEntry"
       }
     ],
+    "profileTypes": [
+      {
+        "name": "Temple Relics",
+        "id": "af83-e937-a88c-0e0d",
+        "hidden": false,
+        "sortIndex": 16,
+        "characteristicTypes": [{"name": "Effect", "id": "5475-dbe4-757a-e449"}]
+      }
+    ],
     "sharedProfiles": [
       {
         "name": "Attached Unit",
@@ -201,10 +210,34 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your Command phase, if this unit contains one or more Cenobyte Servitor models, select up to one of the abilities in the Temple Relics section. Until the start of your next Command phase, this model has that ability.\n\n\nBanner of the Emperor Victorious\nThis unit has +1 to advance rolls and charge rolls.\n\n\nColumn from the Major Altar\nThis unit has +1 T.\n\n\nWater from the Stoup of Elucidation\nThis unit's melee attacks have +1 AP.",
+                "$text": "At the start of your Command phase, if this unit contains one or more ^^**Cenobyte Servitor**^^ models, select up to one of the abilities in the Temple Relics section. Until the start of your next Command phase, this model has that ability.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Banner of the Emperor Victorious",
+            "id": "78f8-808e-5f7d-1672",
+            "hidden": false,
+            "typeId": "af83-e937-a88c-0e0d",
+            "typeName": "Temple Relics",
+            "characteristics": [{"name": "Effect", "$text": "This unit has +1 to advance rolls and charge rolls.", "typeId": "5475-dbe4-757a-e449"}]
+          },
+          {
+            "name": "Column from the Major Altar",
+            "id": "586e-f11d-801a-7bab",
+            "hidden": false,
+            "typeId": "af83-e937-a88c-0e0d",
+            "typeName": "Temple Relics",
+            "characteristics": [{"name": "Effect", "$text": "This unit has +1 T.", "typeId": "5475-dbe4-757a-e449"}]
+          },
+          {
+            "name": "Water from the Stoup of Elucidation",
+            "id": "0ecf-2dc1-6c5c-c331",
+            "hidden": false,
+            "typeId": "af83-e937-a88c-0e0d",
+            "typeName": "Temple Relics",
+            "characteristics": [{"name": "Effect", "$text": "This unit's melee attacks have +1 AP.", "typeId": "5475-dbe4-757a-e449"}]
           },
           {
             "name": "Leader",

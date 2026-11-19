@@ -511,6 +511,22 @@
       {"name": "Hastarii Exterminators", "id": "1b6d-54f5-244e-38a0", "hidden": false, "import": true, "targetId": "52d3-71a9-f755-d6aa", "type": "selectionEntry"},
       {"name": "Hastarii Fusiliers", "id": "764f-d36d-0d22-b79c", "hidden": false, "import": true, "targetId": "d653-1ac3-d944-224f", "type": "selectionEntry"}
     ],
+    "profileTypes": [
+      {
+        "name": "Icon of War",
+        "id": "6940-bae8-c643-56b8",
+        "hidden": false,
+        "sortIndex": 16,
+        "characteristicTypes": [{"name": "Effect", "id": "9a98-9004-f035-6173"}]
+      },
+      {
+        "name": "Canticles of the Omnissiah",
+        "id": "0b1d-da52-d811-aba6",
+        "hidden": false,
+        "sortIndex": 16,
+        "characteristicTypes": [{"name": "Effect", "id": "4c30-e75a-9ef5-d569"}]
+      }
+    ],
     "sharedProfiles": [
       {
         "name": "Ironstrider Ballistarii",
@@ -1802,10 +1818,34 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability.\n\nInvocation of Machine Vengeance (Aura): At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly ^^**Adeptus Mechanicus^^** unit makes an attack that targets your Machine Vengeance target, you can re‑roll the Hit roll.\n\nMantra of Discipline:  This model has the ^^**Battleline**^^ keyword and has the following ability:\n**Binharic Courage (Aura)**: While a friendly ^^**Adeptus Mechanicus**^^ unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.’\n\nShroudpsalm (Aura): While a friendly **^^Adeptus Mechanicus**^^ unit is within 6\" of this model, that unit has the Stealth ability.",
+                "$text": "At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Invocation of Machine Vengeance (Aura)",
+            "id": "d3cd-ff88-2ea4-9acd",
+            "hidden": false,
+            "typeId": "0b1d-da52-d811-aba6",
+            "typeName": "Canticles of the Omnissiah",
+            "characteristics": [{"name": "Effect", "$text": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly ^^**Adeptus Mechanicus**^^ unit makes an attack that targets your Machine Vengeance target, you can re-roll the Hit roll.", "typeId": "4c30-e75a-9ef5-d569"}]
+          },
+          {
+            "name": "Mantra of Discipline",
+            "id": "f21f-7da5-458c-55ce",
+            "hidden": false,
+            "typeId": "0b1d-da52-d811-aba6",
+            "typeName": "Canticles of the Omnissiah",
+            "characteristics": [{"name": "Effect", "$text": "This model has the ^^**Battleline**^^ keyword and has the following ability:\n\n**Binharic Courage (Aura)**: While a friendly ^^**Adeptus Mechanicus**^^ unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.", "typeId": "4c30-e75a-9ef5-d569"}]
+          },
+          {
+            "name": "Shroudpsalm (Aura)",
+            "id": "7906-e651-fa48-107d",
+            "hidden": false,
+            "typeId": "0b1d-da52-d811-aba6",
+            "typeName": "Canticles of the Omnissiah",
+            "characteristics": [{"name": "Effect", "$text": "While a friendly ^^**Adeptus Mechanicus**^^ unit is within 6\" of this model, that unit has the Stealth ability.", "typeId": "4c30-e75a-9ef5-d569"}]
           },
           {
             "name": "Mechanicus Bodyguard",
@@ -22146,20 +22186,6 @@
             ]
           },
           {
-            "name": "Icon of War",
-            "id": "93af-4f1d-63c7-7a5b",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Fanatical Devotion:** You can select one friendly **^^Skitarii^^** or **^^Thulia Ghuld^^** unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Advanced.\n\n**Adaptive Tactics:** You can select one friendly **^^Skitarii^^** or **^^Thulia Ghuld^^** unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n\n**The Fires of Mars:** You can select one friendly **^^Skitarii^^** or **^^Thulia Ghuld^^** unit within 6\" of this model; until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for that unit.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
             "name": "Mechanicus Bodyguard",
             "id": "eabc-5fb7-a61a-20ce",
             "hidden": false,
@@ -22208,6 +22234,30 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Fanatical Devotion",
+            "id": "e1b8-0acf-23f4-7a88",
+            "hidden": false,
+            "typeId": "6940-bae8-c643-56b8",
+            "typeName": "Icon of War",
+            "characteristics": [{"name": "Effect", "$text": "You can select one friendly ^^**Skitarii**^^ or ^^**Thulia Ghuld**^^ unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Advanced.", "typeId": "9a98-9004-f035-6173"}]
+          },
+          {
+            "name": "Adaptive Tactics",
+            "id": "b5b6-5d01-5402-526d",
+            "hidden": false,
+            "typeId": "6940-bae8-c643-56b8",
+            "typeName": "Icon of War",
+            "characteristics": [{"name": "Effect", "$text": "You can select one friendly ^^**Skitarii**^^ or ^^**Thulia Ghuld**^^ unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.", "typeId": "9a98-9004-f035-6173"}]
+          },
+          {
+            "name": "The Fires of Mars",
+            "id": "edb9-068b-ec96-bfb9",
+            "hidden": false,
+            "typeId": "6940-bae8-c643-56b8",
+            "typeName": "Icon of War",
+            "characteristics": [{"name": "Effect", "$text": "You can select one friendly ^^**Skitarii**^^ or ^^**Thulia Ghuld**^^ unit within 6\" of this model; until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for that unit.", "typeId": "9a98-9004-f035-6173"}]
           }
         ],
         "selectionEntries": [
