@@ -295,6 +295,15 @@
       },
       {"name": "Defiler", "id": "a936-cfdb-f498-8a5c", "hidden": false, "import": true, "targetId": "b541-3292-a5cc-dbeb", "type": "selectionEntry"}
     ],
+    "profileTypes": [
+      {
+        "name": "Daemon Primarch of Slaanesh",
+        "id": "ad97-014e-e9ba-3ffb",
+        "hidden": false,
+        "sortIndex": 16,
+        "characteristicTypes": [{"name": "Effect", "id": "dd02-2d03-e528-c253"}]
+      }
+    ],
     "sharedInfoGroups": [{"name": "Plasma pistol", "id": "0cbe-31f4-e833-9ef4", "hidden": false}],
     "sharedProfiles": [
       {
@@ -575,7 +584,7 @@
         ],
         "infoGroups": [
           {
-            "name": "Daemon Prince of Slaanesh",
+            "name": "Daemon Primarch of Slaanesh",
             "id": "78af-0610-dd0b-ceb1",
             "hidden": false,
             "profiles": [
@@ -583,29 +592,29 @@
                 "name": "Beguiling Form",
                 "id": "3a41-f55f-c44f-9782",
                 "hidden": false,
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "characteristics": [{"name": "Description", "$text": "Each time a model makes an attack that targets this unit, subtract 1 from the Hit roll.", "typeId": "9b8f-694b-e5e-b573"}]
+                "typeId": "ad97-014e-e9ba-3ffb",
+                "typeName": "Daemon Primarch of Slaanesh",
+                "characteristics": [{"name": "Effect", "$text": "Each time a model makes an attack that targets this unit, subtract 1 from the Hit roll.", "typeId": "dd02-2d03-e528-c253"}]
               },
               {
                 "name": "Daemonic Speed",
                 "id": "62c3-70df-90c4-5136",
                 "hidden": false,
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "characteristics": [{"name": "Description", "$text": "This model has the Fights First ability.", "typeId": "9b8f-694b-e5e-b573"}]
+                "typeId": "ad97-014e-e9ba-3ffb",
+                "typeName": "Daemon Primarch of Slaanesh",
+                "characteristics": [{"name": "Effect", "$text": "This model has the Fights First ability.", "typeId": "dd02-2d03-e528-c253"}]
               },
               {
                 "name": "Enthralling Hypnosis (Aura)",
                 "id": "24ce-3caf-5629-156e",
                 "hidden": false,
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
+                "typeId": "ad97-014e-e9ba-3ffb",
+                "typeName": "Daemon Primarch of Slaanesh",
                 "characteristics": [
                   {
-                    "name": "Description",
+                    "name": "Effect",
                     "$text": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "dd02-2d03-e528-c253"
                   }
                 ]
               }
@@ -657,7 +666,7 @@
             ]
           },
           {
-            "name": "Daemon Prince of Slaanesh",
+            "name": "Daemon Primarch of Slaanesh",
             "id": "ca20-91b8-b9e8-c14d",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -665,7 +674,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your opponent's Command phase, select one of the abilities in the Daemon Prince of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability.",
+                "$text": "At the start of your opponent's Command phase, select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]

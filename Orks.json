@@ -11171,7 +11171,7 @@
             "characteristics": [{"name": "Capacity", "$text": "This model has a **transport capacity** of 12 **BEAST SNAGGAS INFANTRY** models.", "typeId": "30f2-be70-861d-1b84"}]
           },
           {
-            "name": "Warpath (psyker level 1)",
+            "name": "Warpath (psychic level 1)",
             "id": "7254-8e45-1cfb-5c51",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -11193,7 +11193,7 @@
             "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
           },
           {
-            "name": "Beastscent (psyker level 1)",
+            "name": "Beastscent (psychic level 1)",
             "id": "33f3-162b-6568-19c0",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
