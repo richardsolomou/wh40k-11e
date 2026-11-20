@@ -1199,7 +1199,7 @@
               "en": "Transport"
             },
             "description": {
-              "en": "This model has a transport capacity of ? ADEPTUS CUSTODES INFANTRY models. It cannot transport ? ? models."
+              "en": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models. It cannot transport JUMP PACK models."
             }
           }
         ]

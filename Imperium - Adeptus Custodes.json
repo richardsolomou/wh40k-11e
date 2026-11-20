@@ -15149,7 +15149,7 @@
               {
                 "name": "Description",
                 "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
-                "$text": "This model has a transport capacity of ? ADEPTUS CUSTODES INFANTRY models. It cannot transport ? ? models."
+                "$text": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models. It cannot transport JUMP PACK models."
               }
             ]
           }
